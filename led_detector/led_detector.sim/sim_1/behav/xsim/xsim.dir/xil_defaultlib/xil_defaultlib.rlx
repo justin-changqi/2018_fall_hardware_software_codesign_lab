@@ -3,6 +3,8 @@
 Jun 14 2018
 20:07:38
 /home/justin/github/2018_fall_hardware_software_codesign_lab/led_detector/led_detector.sim/sim_1/behav/xsim/glbl.v,1529022455,verilog,,,,glbl,,,,,,,,
-/home/justin/github/2018_fall_hardware_software_codesign_lab/led_detector/led_detector.srcs/sim_1/new/tb_top.v,1540390047,verilog,,,,tb_top,,,,,,,,
-/home/justin/github/2018_fall_hardware_software_codesign_lab/led_detector/led_detector.srcs/sources_1/new/clk_div.v,1540390004,verilog,,/home/justin/github/2018_fall_hardware_software_codesign_lab/led_detector/led_detector.srcs/sources_1/new/top.v,,clk_div,,,,,,,,
+/home/justin/github/2018_fall_hardware_software_codesign_lab/led_detector/led_detector.srcs/sim_1/new/tb_clk_div.v,1540392324,verilog,,,,tb_clk_div,,,,,,,,
+/home/justin/github/2018_fall_hardware_software_codesign_lab/led_detector/led_detector.srcs/sim_1/new/tb_led_switch.v,1540391034,verilog,,,,tb_led_switch,,,,,,,,
+/home/justin/github/2018_fall_hardware_software_codesign_lab/led_detector/led_detector.srcs/sources_1/new/clk_div.v,1540392467,verilog,,/home/justin/github/2018_fall_hardware_software_codesign_lab/led_detector/led_detector.srcs/sources_1/new/led_switch.v,,clk_div,,,,,,,,
+/home/justin/github/2018_fall_hardware_software_codesign_lab/led_detector/led_detector.srcs/sources_1/new/led_switch.v,1540394972,verilog,,/home/justin/github/2018_fall_hardware_software_codesign_lab/led_detector/led_detector.srcs/sim_1/new/tb_led_switch.v,,led_switch,,,,,,,,
 /home/justin/github/2018_fall_hardware_software_codesign_lab/led_detector/led_detector.srcs/sources_1/new/top.v,1540390264,verilog,,/home/justin/github/2018_fall_hardware_software_codesign_lab/led_detector/led_detector.srcs/sim_1/new/tb_top.v,,top,,,,,,,,
