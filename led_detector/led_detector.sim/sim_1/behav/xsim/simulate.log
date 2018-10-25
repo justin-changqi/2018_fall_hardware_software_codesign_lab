@@ -1,0 +1,3 @@
+Vivado Simulator 2018.2
+Time resolution is 1 ps
+$finish called at time : 100 ns : File "/home/justin/github/2018_fall_hardware_software_codesign_lab/led_detector/led_detector.srcs/sim_1/new/tb_led_switch.v" Line 54

@@ -2,8 +2,8 @@
 # Vivado v2018.2 (64-bit)
 # SW Build 2258646 on Thu Jun 14 20:02:38 MDT 2018
 # IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
-# Start of session at: Wed Oct 24 23:31:07 2018
-# Process ID: 838
+# Start of session at: Fri Oct 26 00:13:27 2018
+# Process ID: 6336
 # Current directory: /home/justin/github/2018_fall_hardware_software_codesign_lab/led_detector/led_detector.runs/synth_1
 # Command line: vivado -log top.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source top.tcl
 # Log file: /home/justin/github/2018_fall_hardware_software_codesign_lab/led_detector/led_detector.runs/synth_1/top.vds
@@ -15,33 +15,34 @@ Starting synth_design
 Attempting to get a license for feature 'Synthesis' and/or device 'xc7z020'
 INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z020'
 INFO: Launching helper process for spawning children vivado processes
-INFO: Helper process launched with PID 852 
+INFO: Helper process launched with PID 6343 
 ---------------------------------------------------------------------------------
-Starting RTL Elaboration : Time (s): cpu = 00:00:01 ; elapsed = 00:00:02 . Memory (MB): peak = 1308.309 ; gain = 86.699 ; free physical = 18289 ; free virtual = 56228
+Starting RTL Elaboration : Time (s): cpu = 00:00:01 ; elapsed = 00:00:02 . Memory (MB): peak = 1308.305 ; gain = 86.699 ; free physical = 21336 ; free virtual = 58615
 ---------------------------------------------------------------------------------
 INFO: [Synth 8-6157] synthesizing module 'top' [/home/justin/github/2018_fall_hardware_software_codesign_lab/led_detector/led_detector.srcs/sources_1/new/top.v:22]
 INFO: [Synth 8-6157] synthesizing module 'clk_div' [/home/justin/github/2018_fall_hardware_software_codesign_lab/led_detector/led_detector.srcs/sources_1/new/clk_div.v:22]
 INFO: [Synth 8-6155] done synthesizing module 'clk_div' (1#1) [/home/justin/github/2018_fall_hardware_software_codesign_lab/led_detector/led_detector.srcs/sources_1/new/clk_div.v:22]
 INFO: [Synth 8-6157] synthesizing module 'led_switch' [/home/justin/github/2018_fall_hardware_software_codesign_lab/led_detector/led_detector.srcs/sources_1/new/led_switch.v:22]
-WARNING: [Synth 8-567] referenced signal 'EC' should be on the sensitivity list [/home/justin/github/2018_fall_hardware_software_codesign_lab/led_detector/led_detector.srcs/sources_1/new/led_switch.v:137]
-WARNING: [Synth 8-567] referenced signal 'sw_4_4_S' should be on the sensitivity list [/home/justin/github/2018_fall_hardware_software_codesign_lab/led_detector/led_detector.srcs/sources_1/new/led_switch.v:137]
-WARNING: [Synth 8-567] referenced signal 'S_din' should be on the sensitivity list [/home/justin/github/2018_fall_hardware_software_codesign_lab/led_detector/led_detector.srcs/sources_1/new/led_switch.v:137]
-WARNING: [Synth 8-567] referenced signal 'E_din' should be on the sensitivity list [/home/justin/github/2018_fall_hardware_software_codesign_lab/led_detector/led_detector.srcs/sources_1/new/led_switch.v:137]
-WARNING: [Synth 8-567] referenced signal 'N_din' should be on the sensitivity list [/home/justin/github/2018_fall_hardware_software_codesign_lab/led_detector/led_detector.srcs/sources_1/new/led_switch.v:137]
-WARNING: [Synth 8-567] referenced signal 'W_din' should be on the sensitivity list [/home/justin/github/2018_fall_hardware_software_codesign_lab/led_detector/led_detector.srcs/sources_1/new/led_switch.v:137]
-WARNING: [Synth 8-567] referenced signal 'sw_4_4_S' should be on the sensitivity list [/home/justin/github/2018_fall_hardware_software_codesign_lab/led_detector/led_detector.srcs/sources_1/new/led_switch.v:184]
-WARNING: [Synth 8-567] referenced signal 'sw_4_4_E' should be on the sensitivity list [/home/justin/github/2018_fall_hardware_software_codesign_lab/led_detector/led_detector.srcs/sources_1/new/led_switch.v:184]
-WARNING: [Synth 8-567] referenced signal 'E2' should be on the sensitivity list [/home/justin/github/2018_fall_hardware_software_codesign_lab/led_detector/led_detector.srcs/sources_1/new/led_switch.v:184]
-WARNING: [Synth 8-567] referenced signal 'E3' should be on the sensitivity list [/home/justin/github/2018_fall_hardware_software_codesign_lab/led_detector/led_detector.srcs/sources_1/new/led_switch.v:184]
-WARNING: [Synth 8-567] referenced signal 'E1' should be on the sensitivity list [/home/justin/github/2018_fall_hardware_software_codesign_lab/led_detector/led_detector.srcs/sources_1/new/led_switch.v:184]
-WARNING: [Synth 8-567] referenced signal 'E0' should be on the sensitivity list [/home/justin/github/2018_fall_hardware_software_codesign_lab/led_detector/led_detector.srcs/sources_1/new/led_switch.v:184]
+	Parameter LED bound to: 2'b00 
+	Parameter SW1 bound to: 2'b01 
+	Parameter SW4 bound to: 2'b10 
+WARNING: [Synth 8-567] referenced signal 'sw_4_4_S' should be on the sensitivity list [/home/justin/github/2018_fall_hardware_software_codesign_lab/led_detector/led_detector.srcs/sources_1/new/led_switch.v:168]
+WARNING: [Synth 8-567] referenced signal 'S_din' should be on the sensitivity list [/home/justin/github/2018_fall_hardware_software_codesign_lab/led_detector/led_detector.srcs/sources_1/new/led_switch.v:168]
+WARNING: [Synth 8-567] referenced signal 'sw_4_4_E' should be on the sensitivity list [/home/justin/github/2018_fall_hardware_software_codesign_lab/led_detector/led_detector.srcs/sources_1/new/led_switch.v:168]
+WARNING: [Synth 8-567] referenced signal 'E_din' should be on the sensitivity list [/home/justin/github/2018_fall_hardware_software_codesign_lab/led_detector/led_detector.srcs/sources_1/new/led_switch.v:168]
+WARNING: [Synth 8-567] referenced signal 'sw_4_4_N' should be on the sensitivity list [/home/justin/github/2018_fall_hardware_software_codesign_lab/led_detector/led_detector.srcs/sources_1/new/led_switch.v:168]
+WARNING: [Synth 8-567] referenced signal 'N_din' should be on the sensitivity list [/home/justin/github/2018_fall_hardware_software_codesign_lab/led_detector/led_detector.srcs/sources_1/new/led_switch.v:168]
+WARNING: [Synth 8-567] referenced signal 'sw_4_4_W' should be on the sensitivity list [/home/justin/github/2018_fall_hardware_software_codesign_lab/led_detector/led_detector.srcs/sources_1/new/led_switch.v:168]
+WARNING: [Synth 8-567] referenced signal 'W_din' should be on the sensitivity list [/home/justin/github/2018_fall_hardware_software_codesign_lab/led_detector/led_detector.srcs/sources_1/new/led_switch.v:168]
+WARNING: [Synth 8-567] referenced signal 'EC' should be on the sensitivity list [/home/justin/github/2018_fall_hardware_software_codesign_lab/led_detector/led_detector.srcs/sources_1/new/led_switch.v:168]
+WARNING: [Synth 8-567] referenced signal 'sw_4_4_S' should be on the sensitivity list [/home/justin/github/2018_fall_hardware_software_codesign_lab/led_detector/led_detector.srcs/sources_1/new/led_switch.v:200]
+WARNING: [Synth 8-567] referenced signal 'sw_4_4_E' should be on the sensitivity list [/home/justin/github/2018_fall_hardware_software_codesign_lab/led_detector/led_detector.srcs/sources_1/new/led_switch.v:200]
+WARNING: [Synth 8-567] referenced signal 'sw_4_4_N' should be on the sensitivity list [/home/justin/github/2018_fall_hardware_software_codesign_lab/led_detector/led_detector.srcs/sources_1/new/led_switch.v:200]
+WARNING: [Synth 8-567] referenced signal 'sw_4_4_W' should be on the sensitivity list [/home/justin/github/2018_fall_hardware_software_codesign_lab/led_detector/led_detector.srcs/sources_1/new/led_switch.v:200]
 INFO: [Synth 8-6155] done synthesizing module 'led_switch' (2#1) [/home/justin/github/2018_fall_hardware_software_codesign_lab/led_detector/led_detector.srcs/sources_1/new/led_switch.v:22]
 INFO: [Synth 8-6155] done synthesizing module 'top' (3#1) [/home/justin/github/2018_fall_hardware_software_codesign_lab/led_detector/led_detector.srcs/sources_1/new/top.v:22]
-WARNING: [Synth 8-3331] design led_switch has unconnected port sw[6]
-WARNING: [Synth 8-3331] design led_switch has unconnected port sw[5]
-WARNING: [Synth 8-3331] design led_switch has unconnected port sw[4]
 ---------------------------------------------------------------------------------
-Finished RTL Elaboration : Time (s): cpu = 00:00:02 ; elapsed = 00:00:03 . Memory (MB): peak = 1352.934 ; gain = 131.324 ; free physical = 18296 ; free virtual = 56238
+Finished RTL Elaboration : Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 1352.930 ; gain = 131.324 ; free physical = 21349 ; free virtual = 58628
 ---------------------------------------------------------------------------------
 
 Report Check Netlist: 
@@ -54,10 +55,10 @@ Report Check Netlist:
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:00:02 ; elapsed = 00:00:03 . Memory (MB): peak = 1352.934 ; gain = 131.324 ; free physical = 18295 ; free virtual = 56237
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:02 ; elapsed = 00:00:03 . Memory (MB): peak = 1352.930 ; gain = 131.324 ; free physical = 21349 ; free virtual = 58628
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:02 ; elapsed = 00:00:03 . Memory (MB): peak = 1352.934 ; gain = 131.324 ; free physical = 18295 ; free virtual = 56237
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:02 ; elapsed = 00:00:03 . Memory (MB): peak = 1352.930 ; gain = 131.324 ; free physical = 21349 ; free virtual = 58628
 ---------------------------------------------------------------------------------
 INFO: [Device 21-403] Loading part xc7z020clg484-1
 INFO: [Project 1-570] Preparing netlist for logic optimization
@@ -65,12 +66,6 @@ INFO: [Project 1-570] Preparing netlist for logic optimization
 Processing XDC Constraints
 Initializing timing engine
 Parsing XDC File [/home/justin/github/2018_fall_hardware_software_codesign_lab/led_detector/led_detector.srcs/constrs_1/new/my_constrain.xdc]
-WARNING: [Vivado 12-584] No ports matched 'CLK'. [/home/justin/github/2018_fall_hardware_software_codesign_lab/led_detector/led_detector.srcs/constrs_1/new/my_constrain.xdc:10]
-CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/justin/github/2018_fall_hardware_software_codesign_lab/led_detector/led_detector.srcs/constrs_1/new/my_constrain.xdc:10]
-Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
-WARNING: [Vivado 12-584] No ports matched 'CLK'. [/home/justin/github/2018_fall_hardware_software_codesign_lab/led_detector/led_detector.srcs/constrs_1/new/my_constrain.xdc:34]
-CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/justin/github/2018_fall_hardware_software_codesign_lab/led_detector/led_detector.srcs/constrs_1/new/my_constrain.xdc:34]
-Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
 Finished Parsing XDC File [/home/justin/github/2018_fall_hardware_software_codesign_lab/led_detector/led_detector.srcs/constrs_1/new/my_constrain.xdc]
 INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [/home/justin/github/2018_fall_hardware_software_codesign_lab/led_detector/led_detector.srcs/constrs_1/new/my_constrain.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/top_propImpl.xdc].
 Resolution: To avoid this warning, move constraints listed in [.Xil/top_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
@@ -79,42 +74,37 @@ Completed Processing XDC Constraints
 INFO: [Project 1-111] Unisim Transformation Summary:
 No Unisim elements were transformed.
 
-Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1732.910 ; gain = 0.000 ; free physical = 18032 ; free virtual = 55970
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1725.430 ; gain = 0.000 ; free physical = 21079 ; free virtual = 58358
 ---------------------------------------------------------------------------------
-Finished Constraint Validation : Time (s): cpu = 00:00:10 ; elapsed = 00:00:24 . Memory (MB): peak = 1732.910 ; gain = 511.301 ; free physical = 18104 ; free virtual = 56043
+Finished Constraint Validation : Time (s): cpu = 00:00:10 ; elapsed = 00:00:22 . Memory (MB): peak = 1725.430 ; gain = 503.824 ; free physical = 21150 ; free virtual = 58430
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Loading Part and Timing Information
 ---------------------------------------------------------------------------------
 Loading part: xc7z020clg484-1
 ---------------------------------------------------------------------------------
-Finished Loading Part and Timing Information : Time (s): cpu = 00:00:10 ; elapsed = 00:00:24 . Memory (MB): peak = 1732.910 ; gain = 511.301 ; free physical = 18104 ; free virtual = 56043
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:10 ; elapsed = 00:00:22 . Memory (MB): peak = 1725.430 ; gain = 503.824 ; free physical = 21150 ; free virtual = 58430
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Applying 'set_property' XDC Constraints
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:10 ; elapsed = 00:00:24 . Memory (MB): peak = 1732.910 ; gain = 511.301 ; free physical = 18106 ; free virtual = 56045
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:10 ; elapsed = 00:00:22 . Memory (MB): peak = 1725.430 ; gain = 503.824 ; free physical = 21152 ; free virtual = 58432
 ---------------------------------------------------------------------------------
 INFO: [Synth 8-802] inferred FSM for state register 'stage_reg' in module 'led_switch'
-WARNING: [Synth 8-327] inferring latch for variable 'led_reg' [/home/justin/github/2018_fall_hardware_software_codesign_lab/led_detector/led_detector.srcs/sources_1/new/led_switch.v:214]
+INFO: [Synth 8-5544] ROM "stage_next" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
 ---------------------------------------------------------------------------------------------------
                    State |                     New Encoding |                Previous Encoding 
 ---------------------------------------------------------------------------------------------------
-                 iSTATE0 |                               00 |                               00
-                  iSTATE |                               01 |                               01
-*
+                  iSTATE |                               00 |                               00
+                 iSTATE0 |                               01 |                               01
                  iSTATE1 |                               10 |                               10
 ---------------------------------------------------------------------------------------------------
 INFO: [Synth 8-3354] encoded FSM with state register 'stage_reg' using encoding 'sequential' in module 'led_switch'
-WARNING: [Synth 8-327] inferring latch for variable 'led_scan_reg' [/home/justin/github/2018_fall_hardware_software_codesign_lab/led_detector/led_detector.srcs/sources_1/new/led_switch.v:101]
-WARNING: [Synth 8-327] inferring latch for variable 'led_switch_reg' [/home/justin/github/2018_fall_hardware_software_codesign_lab/led_detector/led_detector.srcs/sources_1/new/led_switch.v:128]
-WARNING: [Synth 8-327] inferring latch for variable 'S_d_reg' [/home/justin/github/2018_fall_hardware_software_codesign_lab/led_detector/led_detector.srcs/sources_1/new/led_switch.v:71]
-WARNING: [Synth 8-327] inferring latch for variable 'E_d_reg' [/home/justin/github/2018_fall_hardware_software_codesign_lab/led_detector/led_detector.srcs/sources_1/new/led_switch.v:72]
-WARNING: [Synth 8-327] inferring latch for variable 'N_d_reg' [/home/justin/github/2018_fall_hardware_software_codesign_lab/led_detector/led_detector.srcs/sources_1/new/led_switch.v:73]
-WARNING: [Synth 8-327] inferring latch for variable 'W_d_reg' [/home/justin/github/2018_fall_hardware_software_codesign_lab/led_detector/led_detector.srcs/sources_1/new/led_switch.v:74]
+WARNING: [Synth 8-327] inferring latch for variable 'led_scan_reg' [/home/justin/github/2018_fall_hardware_software_codesign_lab/led_detector/led_detector.srcs/sources_1/new/led_switch.v:127]
+WARNING: [Synth 8-327] inferring latch for variable 'led_switch_reg' [/home/justin/github/2018_fall_hardware_software_codesign_lab/led_detector/led_detector.srcs/sources_1/new/led_switch.v:154]
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:10 ; elapsed = 00:00:24 . Memory (MB): peak = 1732.910 ; gain = 511.301 ; free physical = 18096 ; free virtual = 56035
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:10 ; elapsed = 00:00:23 . Memory (MB): peak = 1725.430 ; gain = 503.824 ; free physical = 21143 ; free virtual = 58423
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -136,9 +126,9 @@ Detailed RTL Component Info :
 	   2 Input      8 Bit        Muxes := 1     
 	   4 Input      7 Bit        Muxes := 1     
 	   4 Input      4 Bit        Muxes := 8     
+	   3 Input      2 Bit        Muxes := 1     
 	   2 Input      2 Bit        Muxes := 2     
-	   2 Input      1 Bit        Muxes := 24    
-	   4 Input      1 Bit        Muxes := 29    
+	   2 Input      1 Bit        Muxes := 1     
 	  12 Input      1 Bit        Muxes := 1     
 ---------------------------------------------------------------------------------
 Finished RTL Component Statistics 
@@ -162,9 +152,9 @@ Detailed RTL Component Info :
 	   2 Input      8 Bit        Muxes := 1     
 	   4 Input      7 Bit        Muxes := 1     
 	   4 Input      4 Bit        Muxes := 8     
+	   3 Input      2 Bit        Muxes := 1     
 	   2 Input      2 Bit        Muxes := 2     
-	   2 Input      1 Bit        Muxes := 24    
-	   4 Input      1 Bit        Muxes := 29    
+	   2 Input      1 Bit        Muxes := 1     
 	  12 Input      1 Bit        Muxes := 1     
 ---------------------------------------------------------------------------------
 Finished RTL Hierarchical Component Statistics
@@ -182,9 +172,6 @@ Finished Part Resource Summary
 Start Cross Boundary and Area Optimization
 ---------------------------------------------------------------------------------
 Warning: Parallel synthesis criteria is not met 
-WARNING: [Synth 8-3331] design top has unconnected port sw[6]
-WARNING: [Synth 8-3331] design top has unconnected port sw[5]
-WARNING: [Synth 8-3331] design top has unconnected port sw[4]
 INFO: [Synth 8-3333] propagating constant 0 across sequential element (\nolabel_line38/led_switch_reg[1] )
 INFO: [Synth 8-3333] propagating constant 0 across sequential element (\nolabel_line38/led_switch_reg[3] )
 INFO: [Synth 8-3333] propagating constant 0 across sequential element (\nolabel_line38/led_switch_reg[5] )
@@ -196,7 +183,7 @@ WARNING: [Synth 8-3332] Sequential element (nolabel_line38/led_switch_reg[2]) is
 WARNING: [Synth 8-3332] Sequential element (nolabel_line38/led_switch_reg[1]) is unused and will be removed from module top.
 WARNING: [Synth 8-3332] Sequential element (nolabel_line38/led_switch_reg[0]) is unused and will be removed from module top.
 ---------------------------------------------------------------------------------
-Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:11 ; elapsed = 00:00:24 . Memory (MB): peak = 1732.910 ; gain = 511.301 ; free physical = 18078 ; free virtual = 56022
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:10 ; elapsed = 00:00:23 . Memory (MB): peak = 1725.430 ; gain = 503.824 ; free physical = 21131 ; free virtual = 58412
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -208,13 +195,13 @@ Report RTL Partitions:
 Start Applying XDC Timing Constraints
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:16 ; elapsed = 00:00:32 . Memory (MB): peak = 1732.910 ; gain = 511.301 ; free physical = 17920 ; free virtual = 55860
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:15 ; elapsed = 00:00:30 . Memory (MB): peak = 1725.430 ; gain = 503.824 ; free physical = 21004 ; free virtual = 58285
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Timing Optimization
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Timing Optimization : Time (s): cpu = 00:00:16 ; elapsed = 00:00:32 . Memory (MB): peak = 1732.910 ; gain = 511.301 ; free physical = 17919 ; free virtual = 55860
+Finished Timing Optimization : Time (s): cpu = 00:00:15 ; elapsed = 00:00:30 . Memory (MB): peak = 1725.430 ; gain = 503.824 ; free physical = 21004 ; free virtual = 58285
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -226,7 +213,7 @@ Report RTL Partitions:
 Start Technology Mapping
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Technology Mapping : Time (s): cpu = 00:00:16 ; elapsed = 00:00:32 . Memory (MB): peak = 1732.910 ; gain = 511.301 ; free physical = 17918 ; free virtual = 55859
+Finished Technology Mapping : Time (s): cpu = 00:00:15 ; elapsed = 00:00:30 . Memory (MB): peak = 1725.430 ; gain = 503.824 ; free physical = 21002 ; free virtual = 58284
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -250,7 +237,7 @@ Start Final Netlist Cleanup
 Finished Final Netlist Cleanup
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished IO Insertion : Time (s): cpu = 00:00:17 ; elapsed = 00:00:32 . Memory (MB): peak = 1732.910 ; gain = 511.301 ; free physical = 17918 ; free virtual = 55859
+Finished IO Insertion : Time (s): cpu = 00:00:16 ; elapsed = 00:00:31 . Memory (MB): peak = 1725.430 ; gain = 503.824 ; free physical = 21003 ; free virtual = 58284
 ---------------------------------------------------------------------------------
 
 Report Check Netlist: 
@@ -263,7 +250,7 @@ Report Check Netlist:
 Start Renaming Generated Instances
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Instances : Time (s): cpu = 00:00:17 ; elapsed = 00:00:32 . Memory (MB): peak = 1732.910 ; gain = 511.301 ; free physical = 17919 ; free virtual = 55860
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:16 ; elapsed = 00:00:31 . Memory (MB): peak = 1725.430 ; gain = 503.824 ; free physical = 21003 ; free virtual = 58284
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -275,25 +262,25 @@ Report RTL Partitions:
 Start Rebuilding User Hierarchy
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:17 ; elapsed = 00:00:32 . Memory (MB): peak = 1732.910 ; gain = 511.301 ; free physical = 17919 ; free virtual = 55860
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:16 ; elapsed = 00:00:31 . Memory (MB): peak = 1725.430 ; gain = 503.824 ; free physical = 21003 ; free virtual = 58284
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Ports
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Ports : Time (s): cpu = 00:00:17 ; elapsed = 00:00:32 . Memory (MB): peak = 1732.910 ; gain = 511.301 ; free physical = 17919 ; free virtual = 55860
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:16 ; elapsed = 00:00:31 . Memory (MB): peak = 1725.430 ; gain = 503.824 ; free physical = 21003 ; free virtual = 58284
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:00:17 ; elapsed = 00:00:32 . Memory (MB): peak = 1732.910 ; gain = 511.301 ; free physical = 17919 ; free virtual = 55860
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:16 ; elapsed = 00:00:31 . Memory (MB): peak = 1725.430 ; gain = 503.824 ; free physical = 21003 ; free virtual = 58284
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Nets
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Nets : Time (s): cpu = 00:00:17 ; elapsed = 00:00:32 . Memory (MB): peak = 1732.910 ; gain = 511.301 ; free physical = 17919 ; free virtual = 55860
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:16 ; elapsed = 00:00:31 . Memory (MB): peak = 1725.430 ; gain = 503.824 ; free physical = 21003 ; free virtual = 58284
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Writing Synthesis Report
@@ -311,49 +298,47 @@ Report Cell Usage:
 +------+-------+------+
 |1     |BUFG   |     1|
 |2     |CARRY4 |    31|
-|3     |LUT1   |     3|
-|4     |LUT2   |   111|
-|5     |LUT3   |    23|
-|6     |LUT4   |    10|
-|7     |LUT5   |    11|
-|8     |LUT6   |     6|
+|3     |LUT1   |     6|
+|4     |LUT2   |   109|
+|5     |LUT3   |    28|
+|6     |LUT4   |     8|
+|7     |LUT5   |     9|
+|8     |LUT6   |    16|
 |9     |FDCE   |    73|
-|10    |LD     |    19|
-|11    |LDC    |     1|
-|12    |IBUF   |     6|
-|13    |OBUF   |     8|
+|10    |LD     |     8|
+|11    |IBUF   |    14|
+|12    |OBUF   |     8|
 +------+-------+------+
 
 Report Instance Areas: 
 +------+-----------------+-----------+------+
 |      |Instance         |Module     |Cells |
 +------+-----------------+-----------+------+
-|1     |top              |           |   303|
+|1     |top              |           |   311|
 |2     |  nolabel_line32 |clk_div    |   224|
-|3     |  nolabel_line38 |led_switch |    64|
+|3     |  nolabel_line38 |led_switch |    40|
 +------+-----------------+-----------+------+
 ---------------------------------------------------------------------------------
-Finished Writing Synthesis Report : Time (s): cpu = 00:00:17 ; elapsed = 00:00:32 . Memory (MB): peak = 1732.910 ; gain = 511.301 ; free physical = 17919 ; free virtual = 55860
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:16 ; elapsed = 00:00:31 . Memory (MB): peak = 1725.430 ; gain = 503.824 ; free physical = 21003 ; free virtual = 58284
 ---------------------------------------------------------------------------------
-Synthesis finished with 0 errors, 0 critical warnings and 17 warnings.
-Synthesis Optimization Runtime : Time (s): cpu = 00:00:10 ; elapsed = 00:00:14 . Memory (MB): peak = 1732.910 ; gain = 131.324 ; free physical = 17976 ; free virtual = 55917
-Synthesis Optimization Complete : Time (s): cpu = 00:00:17 ; elapsed = 00:00:32 . Memory (MB): peak = 1732.910 ; gain = 511.301 ; free physical = 17976 ; free virtual = 55917
+Synthesis finished with 0 errors, 0 critical warnings and 9 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:09 ; elapsed = 00:00:13 . Memory (MB): peak = 1725.430 ; gain = 131.324 ; free physical = 21059 ; free virtual = 58341
+Synthesis Optimization Complete : Time (s): cpu = 00:00:16 ; elapsed = 00:00:31 . Memory (MB): peak = 1725.430 ; gain = 503.824 ; free physical = 21060 ; free virtual = 58341
 INFO: [Project 1-571] Translating synthesized netlist
-INFO: [Netlist 29-17] Analyzing 57 Unisim elements for replacement
+INFO: [Netlist 29-17] Analyzing 53 Unisim elements for replacement
 INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
 INFO: [Project 1-570] Preparing netlist for logic optimization
 INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
 INFO: [Project 1-111] Unisim Transformation Summary:
-  A total of 20 instances were transformed.
-  LD => LDCE: 19 instances
-  LDC => LDCE: 1 instances
+  A total of 8 instances were transformed.
+  LD => LDCE: 8 instances
 
 INFO: [Common 17-83] Releasing license: Synthesis
-23 Infos, 34 Warnings, 2 Critical Warnings and 0 Errors encountered.
+24 Infos, 22 Warnings, 0 Critical Warnings and 0 Errors encountered.
 synth_design completed successfully
-synth_design: Time (s): cpu = 00:00:18 ; elapsed = 00:00:33 . Memory (MB): peak = 1732.910 ; gain = 523.055 ; free physical = 17968 ; free virtual = 55909
+synth_design: Time (s): cpu = 00:00:17 ; elapsed = 00:00:32 . Memory (MB): peak = 1725.430 ; gain = 515.578 ; free physical = 21052 ; free virtual = 58334
 WARNING: [Constraints 18-5210] No constraint will be written out.
 INFO: [Common 17-1381] The checkpoint '/home/justin/github/2018_fall_hardware_software_codesign_lab/led_detector/led_detector.runs/synth_1/top.dcp' has been generated.
 INFO: [runtcl-4] Executing : report_utilization -file top_utilization_synth.rpt -pb top_utilization_synth.pb
-report_utilization: Time (s): cpu = 00:00:00.09 ; elapsed = 00:00:00.10 . Memory (MB): peak = 1756.922 ; gain = 0.000 ; free physical = 17967 ; free virtual = 55908
-INFO: [Common 17-206] Exiting Vivado at Wed Oct 24 23:31:47 2018...
+report_utilization: Time (s): cpu = 00:00:00.08 ; elapsed = 00:00:00.10 . Memory (MB): peak = 1749.441 ; gain = 0.000 ; free physical = 21051 ; free virtual = 58332
+INFO: [Common 17-206] Exiting Vivado at Fri Oct 26 00:14:05 2018...

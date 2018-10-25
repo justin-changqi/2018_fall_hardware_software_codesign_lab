@@ -1,6 +1,6 @@
 webtalk_init -webtalk_dir /home/justin/github/2018_fall_hardware_software_codesign_lab/led_detector/led_detector.sim/sim_1/behav/xsim/xsim.dir/tb_led_switch_behav/webtalk/
 webtalk_register_client -client project
-webtalk_add_data -client project -key date_generated -value "Wed Oct 24 23:30:35 2018" -context "software_version_and_target_device"
+webtalk_add_data -client project -key date_generated -value "Fri Oct 26 00:03:13 2018" -context "software_version_and_target_device"
 webtalk_add_data -client project -key product_version -value "XSIM v2018.2 (64-bit)" -context "software_version_and_target_device"
 webtalk_add_data -client project -key build_version -value "2258646" -context "software_version_and_target_device"
 webtalk_add_data -client project -key os_platform -value "LIN64" -context "software_version_and_target_device"
@@ -14,19 +14,19 @@ webtalk_add_data -client project -key target_package -value "not_applicable" -co
 webtalk_add_data -client project -key target_speed -value "not_applicable" -context "software_version_and_target_device"
 webtalk_add_data -client project -key random_id -value "6af58cd9-fc73-4471-ab54-16c25897c5be" -context "software_version_and_target_device"
 webtalk_add_data -client project -key project_id -value "17a1eee3da014b368028a83079247773" -context "software_version_and_target_device"
-webtalk_add_data -client project -key project_iteration -value "9" -context "software_version_and_target_device"
+webtalk_add_data -client project -key project_iteration -value "53" -context "software_version_and_target_device"
 webtalk_add_data -client project -key os_name -value "Ubuntu" -context "user_environment"
 webtalk_add_data -client project -key os_release -value "Ubuntu 16.04.5 LTS" -context "user_environment"
 webtalk_add_data -client project -key cpu_name -value "Intel(R) Xeon(R) CPU E3-1505M v6 @ 3.00GHz" -context "user_environment"
-webtalk_add_data -client project -key cpu_speed -value "2318.174 MHz" -context "user_environment"
+webtalk_add_data -client project -key cpu_speed -value "2586.225 MHz" -context "user_environment"
 webtalk_add_data -client project -key total_processors -value "1" -context "user_environment"
 webtalk_add_data -client project -key system_ram -value "33.000 GB" -context "user_environment"
 webtalk_register_client -client xsim
 webtalk_add_data -client xsim -key Command -value "xsim" -context "xsim\\command_line_options"
 webtalk_add_data -client xsim -key trace_waveform -value "true" -context "xsim\\usage"
-webtalk_add_data -client xsim -key runtime -value "0 ps" -context "xsim\\usage"
-webtalk_add_data -client xsim -key iteration -value "0" -context "xsim\\usage"
+webtalk_add_data -client xsim -key runtime -value "20100 ns" -context "xsim\\usage"
+webtalk_add_data -client xsim -key iteration -value "2" -context "xsim\\usage"
 webtalk_add_data -client xsim -key Simulation_Time -value "0.03_sec" -context "xsim\\usage"
-webtalk_add_data -client xsim -key Simulation_Memory -value "124140_KB" -context "xsim\\usage"
-webtalk_transmit -clientid 1517480881 -regid "" -xml /home/justin/github/2018_fall_hardware_software_codesign_lab/led_detector/led_detector.sim/sim_1/behav/xsim/xsim.dir/tb_led_switch_behav/webtalk/usage_statistics_ext_xsim.xml -html /home/justin/github/2018_fall_hardware_software_codesign_lab/led_detector/led_detector.sim/sim_1/behav/xsim/xsim.dir/tb_led_switch_behav/webtalk/usage_statistics_ext_xsim.html -wdm /home/justin/github/2018_fall_hardware_software_codesign_lab/led_detector/led_detector.sim/sim_1/behav/xsim/xsim.dir/tb_led_switch_behav/webtalk/usage_statistics_ext_xsim.wdm -intro "<H3>XSIM Usage Report</H3><BR>"
+webtalk_add_data -client xsim -key Simulation_Memory -value "124408_KB" -context "xsim\\usage"
+webtalk_transmit -clientid 3263379069 -regid "" -xml /home/justin/github/2018_fall_hardware_software_codesign_lab/led_detector/led_detector.sim/sim_1/behav/xsim/xsim.dir/tb_led_switch_behav/webtalk/usage_statistics_ext_xsim.xml -html /home/justin/github/2018_fall_hardware_software_codesign_lab/led_detector/led_detector.sim/sim_1/behav/xsim/xsim.dir/tb_led_switch_behav/webtalk/usage_statistics_ext_xsim.html -wdm /home/justin/github/2018_fall_hardware_software_codesign_lab/led_detector/led_detector.sim/sim_1/behav/xsim/xsim.dir/tb_led_switch_behav/webtalk/usage_statistics_ext_xsim.wdm -intro "<H3>XSIM Usage Report</H3><BR>"
 webtalk_terminate

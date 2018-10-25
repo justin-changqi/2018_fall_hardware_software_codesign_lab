@@ -2,8 +2,8 @@
 # Vivado v2018.2 (64-bit)
 # SW Build 2258646 on Thu Jun 14 20:02:38 MDT 2018
 # IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
-# Start of session at: Wed Oct 24 23:31:07 2018
-# Process ID: 838
+# Start of session at: Fri Oct 26 00:13:27 2018
+# Process ID: 6336
 # Current directory: /home/justin/github/2018_fall_hardware_software_codesign_lab/led_detector/led_detector.runs/synth_1
 # Command line: vivado -log top.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source top.tcl
 # Log file: /home/justin/github/2018_fall_hardware_software_codesign_lab/led_detector/led_detector.runs/synth_1/top.vds

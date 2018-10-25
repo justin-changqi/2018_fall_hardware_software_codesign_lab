@@ -1,7 +1,7 @@
 Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
 -----------------------------------------------------------------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2018.2 (lin64) Build 2258646 Thu Jun 14 20:02:38 MDT 2018
-| Date         : Wed Oct 24 23:32:56 2018
+| Date         : Fri Oct 26 00:15:12 2018
 | Host         : justin-pev running 64-bit Ubuntu 16.04.5 LTS
 | Command      : report_methodology -file top_methodology_drc_routed.rpt -pb top_methodology_drc_routed.pb -rpx top_methodology_drc_routed.rpx
 | Design       : top
@@ -23,22 +23,16 @@ Table of Contents
           Floorplan: design_1
       Design limits: <entire design considered>
              Max violations: <unlimited>
-             Violations found: 94
-+-----------+----------+------------------------------+------------+
-| Rule      | Severity | Description                  | Violations |
-+-----------+----------+------------------------------+------------+
-| LUTAR-1   | Warning  | LUT drives async reset alert | 1          |
-| TIMING-17 | Warning  | Non-clocked sequential cell  | 73         |
-| TIMING-20 | Warning  | Non-clocked latch            | 20         |
-+-----------+----------+------------------------------+------------+
+             Violations found: 81
++-----------+----------+-----------------------------+------------+
+| Rule      | Severity | Description                 | Violations |
++-----------+----------+-----------------------------+------------+
+| TIMING-17 | Warning  | Non-clocked sequential cell | 73         |
+| TIMING-20 | Warning  | Non-clocked latch           | 8          |
++-----------+----------+-----------------------------+------------+
 
 2. REPORT DETAILS
 -----------------
-LUTAR-1#1 Warning
-LUT drives async reset alert  
-LUT cell nolabel_line38/W_d_reg_i_2, with 2 or more inputs, drives asynchronous preset/clear pin(s) nolabel_line38/W_d_reg/CLR. The LUT may glitch and trigger an unexpected reset, even if it is a properly timed path.
-Related violations: <none>
-
 TIMING-17#1 Warning
 Non-clocked sequential cell  
 The clock pin nolabel_line32/cnt_reg[0]/C is not reached by a timing clock
@@ -406,100 +400,40 @@ Related violations: <none>
 
 TIMING-20#1 Warning
 Non-clocked latch  
-The latch nolabel_line38/E_d_reg cannot be properly analyzed as its control pin nolabel_line38/E_d_reg/G is not reached by a timing clock
+The latch nolabel_line38/led_scan_reg[0] cannot be properly analyzed as its control pin nolabel_line38/led_scan_reg[0]/G is not reached by a timing clock
 Related violations: <none>
 
 TIMING-20#2 Warning
 Non-clocked latch  
-The latch nolabel_line38/N_d_reg cannot be properly analyzed as its control pin nolabel_line38/N_d_reg/G is not reached by a timing clock
+The latch nolabel_line38/led_scan_reg[1] cannot be properly analyzed as its control pin nolabel_line38/led_scan_reg[1]/G is not reached by a timing clock
 Related violations: <none>
 
 TIMING-20#3 Warning
 Non-clocked latch  
-The latch nolabel_line38/S_d_reg cannot be properly analyzed as its control pin nolabel_line38/S_d_reg/G is not reached by a timing clock
+The latch nolabel_line38/led_scan_reg[2] cannot be properly analyzed as its control pin nolabel_line38/led_scan_reg[2]/G is not reached by a timing clock
 Related violations: <none>
 
 TIMING-20#4 Warning
 Non-clocked latch  
-The latch nolabel_line38/W_d_reg cannot be properly analyzed as its control pin nolabel_line38/W_d_reg/G is not reached by a timing clock
+The latch nolabel_line38/led_scan_reg[3] cannot be properly analyzed as its control pin nolabel_line38/led_scan_reg[3]/G is not reached by a timing clock
 Related violations: <none>
 
 TIMING-20#5 Warning
 Non-clocked latch  
-The latch nolabel_line38/led_reg[0] cannot be properly analyzed as its control pin nolabel_line38/led_reg[0]/G is not reached by a timing clock
+The latch nolabel_line38/led_scan_reg[4] cannot be properly analyzed as its control pin nolabel_line38/led_scan_reg[4]/G is not reached by a timing clock
 Related violations: <none>
 
 TIMING-20#6 Warning
 Non-clocked latch  
-The latch nolabel_line38/led_reg[1] cannot be properly analyzed as its control pin nolabel_line38/led_reg[1]/G is not reached by a timing clock
+The latch nolabel_line38/led_scan_reg[5] cannot be properly analyzed as its control pin nolabel_line38/led_scan_reg[5]/G is not reached by a timing clock
 Related violations: <none>
 
 TIMING-20#7 Warning
 Non-clocked latch  
-The latch nolabel_line38/led_reg[2] cannot be properly analyzed as its control pin nolabel_line38/led_reg[2]/G is not reached by a timing clock
-Related violations: <none>
-
-TIMING-20#8 Warning
-Non-clocked latch  
-The latch nolabel_line38/led_reg[3] cannot be properly analyzed as its control pin nolabel_line38/led_reg[3]/G is not reached by a timing clock
-Related violations: <none>
-
-TIMING-20#9 Warning
-Non-clocked latch  
-The latch nolabel_line38/led_reg[4] cannot be properly analyzed as its control pin nolabel_line38/led_reg[4]/G is not reached by a timing clock
-Related violations: <none>
-
-TIMING-20#10 Warning
-Non-clocked latch  
-The latch nolabel_line38/led_reg[5] cannot be properly analyzed as its control pin nolabel_line38/led_reg[5]/G is not reached by a timing clock
-Related violations: <none>
-
-TIMING-20#11 Warning
-Non-clocked latch  
-The latch nolabel_line38/led_reg[6] cannot be properly analyzed as its control pin nolabel_line38/led_reg[6]/G is not reached by a timing clock
-Related violations: <none>
-
-TIMING-20#12 Warning
-Non-clocked latch  
-The latch nolabel_line38/led_reg[7] cannot be properly analyzed as its control pin nolabel_line38/led_reg[7]/G is not reached by a timing clock
-Related violations: <none>
-
-TIMING-20#13 Warning
-Non-clocked latch  
-The latch nolabel_line38/led_scan_reg[0] cannot be properly analyzed as its control pin nolabel_line38/led_scan_reg[0]/G is not reached by a timing clock
-Related violations: <none>
-
-TIMING-20#14 Warning
-Non-clocked latch  
-The latch nolabel_line38/led_scan_reg[1] cannot be properly analyzed as its control pin nolabel_line38/led_scan_reg[1]/G is not reached by a timing clock
-Related violations: <none>
-
-TIMING-20#15 Warning
-Non-clocked latch  
-The latch nolabel_line38/led_scan_reg[2] cannot be properly analyzed as its control pin nolabel_line38/led_scan_reg[2]/G is not reached by a timing clock
-Related violations: <none>
-
-TIMING-20#16 Warning
-Non-clocked latch  
-The latch nolabel_line38/led_scan_reg[3] cannot be properly analyzed as its control pin nolabel_line38/led_scan_reg[3]/G is not reached by a timing clock
-Related violations: <none>
-
-TIMING-20#17 Warning
-Non-clocked latch  
-The latch nolabel_line38/led_scan_reg[4] cannot be properly analyzed as its control pin nolabel_line38/led_scan_reg[4]/G is not reached by a timing clock
-Related violations: <none>
-
-TIMING-20#18 Warning
-Non-clocked latch  
-The latch nolabel_line38/led_scan_reg[5] cannot be properly analyzed as its control pin nolabel_line38/led_scan_reg[5]/G is not reached by a timing clock
-Related violations: <none>
-
-TIMING-20#19 Warning
-Non-clocked latch  
 The latch nolabel_line38/led_scan_reg[6] cannot be properly analyzed as its control pin nolabel_line38/led_scan_reg[6]/G is not reached by a timing clock
 Related violations: <none>
 
-TIMING-20#20 Warning
+TIMING-20#8 Warning
 Non-clocked latch  
 The latch nolabel_line38/led_scan_reg[7] cannot be properly analyzed as its control pin nolabel_line38/led_scan_reg[7]/G is not reached by a timing clock
 Related violations: <none>

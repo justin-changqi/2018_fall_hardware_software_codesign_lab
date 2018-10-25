@@ -22,6 +22,7 @@
 
 module tb_led_switch;
     // Inputs
+    reg clk;
     reg [7:0] sw;
     reg clk_1_5;
     reg rst;
@@ -31,6 +32,7 @@ module tb_led_switch;
 
 // Instantiate the Unit Under Test (UUT)
 led_switch uut (
+    .clk(clk),
     .CLK_1_5(clk_1_5),
     .rst_n(rst),
     .sw(sw),
@@ -40,6 +42,7 @@ led_switch uut (
 
 initial begin
     // Initialize Inputs
+    clk = 0;
     sw = 0;
     clk_1_5 = 0;
     rst = 1;
@@ -50,7 +53,8 @@ initial begin
     // Add stimulus here
     $finish;
 end
+always#10 clk=~clk;
 always#55 clk_1_5=~clk_1_5;
-always#60 sw=sw+1;
-always#70 data=data+1;
+always#100 sw=sw+1;
+always#40 data=data+1;
 endmodule

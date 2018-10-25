@@ -36,6 +36,7 @@ module top(
     );
 
     led_switch(
+        .clk(clk),
         .CLK_1_5(CLK_1_5),
         .rst_n(rst_n),
         .sw(sw),
