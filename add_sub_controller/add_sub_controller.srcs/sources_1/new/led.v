@@ -26,7 +26,7 @@ input clk_o1, rst;
 input S;
 output reg [3:0]led;
 
-always@(posedge clk_o1) begin 
+always@(posedge clk_o1 or posedge rst) begin 
     if (rst) begin
         led <= 4'b0000;
     end else begin
