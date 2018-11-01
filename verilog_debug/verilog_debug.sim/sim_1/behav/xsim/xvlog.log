@@ -1,0 +1,6 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/justin/github/2018_fall_hardware_software_codesign_lab/verilog_debug/verilog_debug.srcs/sources_1/imports/lab1101/sub_logic.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sub_logic
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/justin/github/2018_fall_hardware_software_codesign_lab/verilog_debug/verilog_debug.srcs/sources_1/imports/lab1101/ten_q.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ten_q
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/justin/Dropbox/107-1course/245823_hardware_software_codesign/lab/lab1101/ten_q_sim.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ten_q_sim

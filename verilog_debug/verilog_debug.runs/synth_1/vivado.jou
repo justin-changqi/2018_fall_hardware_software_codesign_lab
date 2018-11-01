@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:02:38 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Thu Nov  1 15:48:09 2018
+# Process ID: 31655
+# Current directory: /home/justin/github/2018_fall_hardware_software_codesign_lab/verilog_debug/verilog_debug.runs/synth_1
+# Command line: vivado -log ten_q.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source ten_q.tcl
+# Log file: /home/justin/github/2018_fall_hardware_software_codesign_lab/verilog_debug/verilog_debug.runs/synth_1/ten_q.vds
+# Journal file: /home/justin/github/2018_fall_hardware_software_codesign_lab/verilog_debug/verilog_debug.runs/synth_1/vivado.jou
+#-----------------------------------------------------------
+source ten_q.tcl -notrace

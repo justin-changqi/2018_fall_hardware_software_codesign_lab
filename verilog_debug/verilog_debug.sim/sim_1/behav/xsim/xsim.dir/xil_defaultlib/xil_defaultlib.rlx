@@ -1,0 +1,8 @@
+0.6
+2018.2
+Jun 14 2018
+20:07:38
+/home/justin/Dropbox/107-1course/245823_hardware_software_codesign/lab/lab1101/ten_q_sim.v,1541050572,verilog,,,,ten_q_sim,,,,,,,,
+/home/justin/github/2018_fall_hardware_software_codesign_lab/verilog_debug/verilog_debug.sim/sim_1/behav/xsim/glbl.v,1529022455,verilog,,,,glbl,,,,,,,,
+/home/justin/github/2018_fall_hardware_software_codesign_lab/verilog_debug/verilog_debug.srcs/sources_1/imports/lab1101/sub_logic.v,1541051965,verilog,,/home/justin/github/2018_fall_hardware_software_codesign_lab/verilog_debug/verilog_debug.srcs/sources_1/imports/lab1101/ten_q.v,,sub_logic,,,,,,,,
+/home/justin/github/2018_fall_hardware_software_codesign_lab/verilog_debug/verilog_debug.srcs/sources_1/imports/lab1101/ten_q.v,1541056536,verilog,,/home/justin/Dropbox/107-1course/245823_hardware_software_codesign/lab/lab1101/ten_q_sim.v,,ten_q,,,,,,,,
