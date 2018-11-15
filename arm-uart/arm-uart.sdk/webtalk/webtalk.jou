@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Webtalk v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:02:38 MDT 2018
+# 
+# Start of session at: Thu Nov 15 15:16:24 2018
+# Process ID: 19343
+# Current directory: /home/justin/github/2018_fall_hardware_software_codesign_lab/arm-uart/arm-uart.sdk/webtalk
+# Command line: wbtcv -mode batch -source sdk_webtalk.tcl
+# Log file: /home/justin/github/2018_fall_hardware_software_codesign_lab/arm-uart/arm-uart.sdk/webtalk/webtalk.log
+# Journal file: /home/justin/github/2018_fall_hardware_software_codesign_lab/arm-uart/arm-uart.sdk/webtalk/webtalk.jou
+#-----------------------------------------------------------
+source sdk_webtalk.tcl

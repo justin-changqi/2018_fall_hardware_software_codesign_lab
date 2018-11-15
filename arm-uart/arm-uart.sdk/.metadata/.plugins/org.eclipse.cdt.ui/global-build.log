@@ -1,0 +1,10 @@
+15:15:00 **** Incremental Build of configuration Debug for project input_data_priority ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for 'main-build'.
+15:15:05 **** Incremental Build of configuration Debug for project input_data_priority ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for 'main-build'.
