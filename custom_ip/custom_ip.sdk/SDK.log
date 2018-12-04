@@ -1,0 +1,6 @@
+17:36:27 INFO  : Registering command handlers for SDK TCF services
+17:36:28 INFO  : Launching XSCT server: xsct -n -interactive /home/justin/github/2018_fall_hardware_software_codesign_lab/custom_ip/custom_ip.sdk/temp_xsdb_launch_script.tcl
+17:36:30 INFO  : XSCT server has started successfully.
+17:36:30 INFO  : Successfully done setting XSCT server connection channel  
+17:36:30 INFO  : Successfully done setting SDK workspace  
+17:36:30 INFO  : Processing command line option -hwspec /home/justin/github/2018_fall_hardware_software_codesign_lab/custom_ip/custom_ip.sdk/design_1_wrapper.hdf.
