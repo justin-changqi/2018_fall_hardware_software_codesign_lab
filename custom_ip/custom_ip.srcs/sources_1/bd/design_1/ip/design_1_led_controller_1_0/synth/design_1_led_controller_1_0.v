@@ -48,7 +48,7 @@
 
 
 // IP VLNV: user.org:user:led_controller:1.0
-// IP Revision: 4
+// IP Revision: 5
 
 (* X_CORE_INFO = "led_controller_v1_0,Vivado 2018.2" *)
 (* CHECK_LICENSE_TYPE = "design_1_led_controller_1_0,led_controller_v1_0,{}" *)

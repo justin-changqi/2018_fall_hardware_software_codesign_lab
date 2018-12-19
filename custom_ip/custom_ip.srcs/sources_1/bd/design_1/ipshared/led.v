@@ -22,9 +22,10 @@
 
 module led(
     input [7:0] led_in,
-    output [7:0] led
+    output reg [7:0] led
     );
-    reg led;
     always @ (led_in)
-    led = led_in;
+    begin
+        led <= led_in;
+    end
 endmodule

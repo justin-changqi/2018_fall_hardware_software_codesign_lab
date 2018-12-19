@@ -81,9 +81,9 @@ vcom -work xil_defaultlib -93 \
 
 vlog -work xil_defaultlib  -v2k5 "+incdir+../../../../custom_ip.srcs/sources_1/bd/design_1/ipshared/ec67/hdl" "+incdir+../../../../custom_ip.srcs/sources_1/bd/design_1/ipshared/5bb9/hdl/verilog" "+incdir+../../../../custom_ip.srcs/sources_1/bd/design_1/ipshared/70fd/hdl" "+incdir+/opt/Xilinx/Vivado/2018.2/data/xilinx_vip/include" "+incdir+../../../../custom_ip.srcs/sources_1/bd/design_1/ipshared/ec67/hdl" "+incdir+../../../../custom_ip.srcs/sources_1/bd/design_1/ipshared/5bb9/hdl/verilog" "+incdir+../../../../custom_ip.srcs/sources_1/bd/design_1/ipshared/70fd/hdl" "+incdir+/opt/Xilinx/Vivado/2018.2/data/xilinx_vip/include" \
 "../../../bd/design_1/sim/design_1.v" \
-"../../../bd/design_1/ipshared/7d43/hdl/led_controller_v1_0_S0_AXI.v" \
+"../../../bd/design_1/ipshared/30fe/hdl/led_controller_v1_0_S0_AXI.v" \
 "../../../bd/design_1/ipshared/led.v" \
-"../../../bd/design_1/ipshared/7d43/hdl/led_controller_v1_0.v" \
+"../../../bd/design_1/ipshared/30fe/hdl/led_controller_v1_0.v" \
 "../../../bd/design_1/ip/design_1_led_controller_1_0/sim/design_1_led_controller_1_0.v" \
 
 vlog -work generic_baseblocks_v2_1_0  -v2k5 "+incdir+../../../../custom_ip.srcs/sources_1/bd/design_1/ipshared/ec67/hdl" "+incdir+../../../../custom_ip.srcs/sources_1/bd/design_1/ipshared/5bb9/hdl/verilog" "+incdir+../../../../custom_ip.srcs/sources_1/bd/design_1/ipshared/70fd/hdl" "+incdir+/opt/Xilinx/Vivado/2018.2/data/xilinx_vip/include" "+incdir+../../../../custom_ip.srcs/sources_1/bd/design_1/ipshared/ec67/hdl" "+incdir+../../../../custom_ip.srcs/sources_1/bd/design_1/ipshared/5bb9/hdl/verilog" "+incdir+../../../../custom_ip.srcs/sources_1/bd/design_1/ipshared/70fd/hdl" "+incdir+/opt/Xilinx/Vivado/2018.2/data/xilinx_vip/include" \

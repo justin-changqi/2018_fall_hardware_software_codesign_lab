@@ -1,0 +1,16 @@
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.2 (lin64) Build 2258646 Thu Jun 14 20:02:38 MDT 2018
+| Date         : Wed Dec 19 15:36:29 2018
+| Host         : justin-pev running 64-bit Ubuntu 16.04.5 LTS
+| Command      : upgrade_ip
+| Device       : xc7z020clg484-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_led_controller_1_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_led_controller_1_0 (user.org:user:led_controller:1.0) from (Rev. 4) to (Rev. 5)
+

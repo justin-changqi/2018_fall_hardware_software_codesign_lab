@@ -2,8 +2,8 @@
 # Vivado v2018.2 (64-bit)
 # SW Build 2258646 on Thu Jun 14 20:02:38 MDT 2018
 # IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
-# Start of session at: Tue Dec  4 17:30:44 2018
-# Process ID: 24903
+# Start of session at: Wed Dec 19 15:38:01 2018
+# Process ID: 12572
 # Current directory: /home/justin/github/2018_fall_hardware_software_codesign_lab/custom_ip/custom_ip.runs/synth_1
 # Command line: vivado -log design_1_wrapper.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source design_1_wrapper.tcl
 # Log file: /home/justin/github/2018_fall_hardware_software_codesign_lab/custom_ip/custom_ip.runs/synth_1/design_1_wrapper.vds
@@ -23,25 +23,25 @@ Starting synth_design
 Attempting to get a license for feature 'Synthesis' and/or device 'xc7z020'
 INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z020'
 INFO: Launching helper process for spawning children vivado processes
-INFO: Helper process launched with PID 24915 
+INFO: Helper process launched with PID 12580 
 ---------------------------------------------------------------------------------
-Starting RTL Elaboration : Time (s): cpu = 00:00:01 ; elapsed = 00:00:02 . Memory (MB): peak = 1349.797 ; gain = 88.695 ; free physical = 20856 ; free virtual = 57159
+Starting RTL Elaboration : Time (s): cpu = 00:00:01 ; elapsed = 00:00:02 . Memory (MB): peak = 1350.875 ; gain = 89.699 ; free physical = 13253 ; free virtual = 55520
 ---------------------------------------------------------------------------------
 INFO: [Synth 8-6157] synthesizing module 'design_1_wrapper' [/home/justin/github/2018_fall_hardware_software_codesign_lab/custom_ip/custom_ip.srcs/sources_1/bd/design_1/hdl/design_1_wrapper.v:12]
 INFO: [Synth 8-6157] synthesizing module 'design_1' [/home/justin/github/2018_fall_hardware_software_codesign_lab/custom_ip/custom_ip.srcs/sources_1/bd/design_1/synth/design_1.v:13]
-INFO: [Synth 8-6157] synthesizing module 'design_1_led_controller_1_0' [/home/justin/github/2018_fall_hardware_software_codesign_lab/custom_ip/custom_ip.runs/synth_1/.Xil/Vivado-24903-justin-pev/realtime/design_1_led_controller_1_0_stub.v:6]
-INFO: [Synth 8-6155] done synthesizing module 'design_1_led_controller_1_0' (1#1) [/home/justin/github/2018_fall_hardware_software_codesign_lab/custom_ip/custom_ip.runs/synth_1/.Xil/Vivado-24903-justin-pev/realtime/design_1_led_controller_1_0_stub.v:6]
-INFO: [Synth 8-6157] synthesizing module 'design_1_processing_system7_0_0' [/home/justin/github/2018_fall_hardware_software_codesign_lab/custom_ip/custom_ip.runs/synth_1/.Xil/Vivado-24903-justin-pev/realtime/design_1_processing_system7_0_0_stub.v:6]
-INFO: [Synth 8-6155] done synthesizing module 'design_1_processing_system7_0_0' (2#1) [/home/justin/github/2018_fall_hardware_software_codesign_lab/custom_ip/custom_ip.runs/synth_1/.Xil/Vivado-24903-justin-pev/realtime/design_1_processing_system7_0_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'design_1_led_controller_1_0' [/home/justin/github/2018_fall_hardware_software_codesign_lab/custom_ip/custom_ip.runs/synth_1/.Xil/Vivado-12572-justin-pev/realtime/design_1_led_controller_1_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_led_controller_1_0' (1#1) [/home/justin/github/2018_fall_hardware_software_codesign_lab/custom_ip/custom_ip.runs/synth_1/.Xil/Vivado-12572-justin-pev/realtime/design_1_led_controller_1_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'design_1_processing_system7_0_0' [/home/justin/github/2018_fall_hardware_software_codesign_lab/custom_ip/custom_ip.runs/synth_1/.Xil/Vivado-12572-justin-pev/realtime/design_1_processing_system7_0_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_processing_system7_0_0' (2#1) [/home/justin/github/2018_fall_hardware_software_codesign_lab/custom_ip/custom_ip.runs/synth_1/.Xil/Vivado-12572-justin-pev/realtime/design_1_processing_system7_0_0_stub.v:6]
 WARNING: [Synth 8-350] instance 'processing_system7_0' of module 'design_1_processing_system7_0_0' requires 68 connections, but only 63 given [/home/justin/github/2018_fall_hardware_software_codesign_lab/custom_ip/custom_ip.srcs/sources_1/bd/design_1/synth/design_1.v:167]
 INFO: [Synth 8-6157] synthesizing module 'design_1_ps7_0_axi_periph_0' [/home/justin/github/2018_fall_hardware_software_codesign_lab/custom_ip/custom_ip.srcs/sources_1/bd/design_1/synth/design_1.v:305]
 INFO: [Synth 8-6157] synthesizing module 's00_couplers_imp_UYSKKA' [/home/justin/github/2018_fall_hardware_software_codesign_lab/custom_ip/custom_ip.srcs/sources_1/bd/design_1/synth/design_1.v:620]
-INFO: [Synth 8-6157] synthesizing module 'design_1_auto_pc_0' [/home/justin/github/2018_fall_hardware_software_codesign_lab/custom_ip/custom_ip.runs/synth_1/.Xil/Vivado-24903-justin-pev/realtime/design_1_auto_pc_0_stub.v:6]
-INFO: [Synth 8-6155] done synthesizing module 'design_1_auto_pc_0' (3#1) [/home/justin/github/2018_fall_hardware_software_codesign_lab/custom_ip/custom_ip.runs/synth_1/.Xil/Vivado-24903-justin-pev/realtime/design_1_auto_pc_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'design_1_auto_pc_0' [/home/justin/github/2018_fall_hardware_software_codesign_lab/custom_ip/custom_ip.runs/synth_1/.Xil/Vivado-12572-justin-pev/realtime/design_1_auto_pc_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_auto_pc_0' (3#1) [/home/justin/github/2018_fall_hardware_software_codesign_lab/custom_ip/custom_ip.runs/synth_1/.Xil/Vivado-12572-justin-pev/realtime/design_1_auto_pc_0_stub.v:6]
 INFO: [Synth 8-6155] done synthesizing module 's00_couplers_imp_UYSKKA' (4#1) [/home/justin/github/2018_fall_hardware_software_codesign_lab/custom_ip/custom_ip.srcs/sources_1/bd/design_1/synth/design_1.v:620]
 INFO: [Synth 8-6155] done synthesizing module 'design_1_ps7_0_axi_periph_0' (5#1) [/home/justin/github/2018_fall_hardware_software_codesign_lab/custom_ip/custom_ip.srcs/sources_1/bd/design_1/synth/design_1.v:305]
-INFO: [Synth 8-6157] synthesizing module 'design_1_rst_ps7_0_100M_0' [/home/justin/github/2018_fall_hardware_software_codesign_lab/custom_ip/custom_ip.runs/synth_1/.Xil/Vivado-24903-justin-pev/realtime/design_1_rst_ps7_0_100M_0_stub.v:6]
-INFO: [Synth 8-6155] done synthesizing module 'design_1_rst_ps7_0_100M_0' (6#1) [/home/justin/github/2018_fall_hardware_software_codesign_lab/custom_ip/custom_ip.runs/synth_1/.Xil/Vivado-24903-justin-pev/realtime/design_1_rst_ps7_0_100M_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'design_1_rst_ps7_0_100M_0' [/home/justin/github/2018_fall_hardware_software_codesign_lab/custom_ip/custom_ip.runs/synth_1/.Xil/Vivado-12572-justin-pev/realtime/design_1_rst_ps7_0_100M_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_rst_ps7_0_100M_0' (6#1) [/home/justin/github/2018_fall_hardware_software_codesign_lab/custom_ip/custom_ip.runs/synth_1/.Xil/Vivado-12572-justin-pev/realtime/design_1_rst_ps7_0_100M_0_stub.v:6]
 WARNING: [Synth 8-350] instance 'rst_ps7_0_100M' of module 'design_1_rst_ps7_0_100M_0' requires 10 connections, but only 7 given [/home/justin/github/2018_fall_hardware_software_codesign_lab/custom_ip/custom_ip.srcs/sources_1/bd/design_1/synth/design_1.v:295]
 INFO: [Synth 8-6155] done synthesizing module 'design_1' (7#1) [/home/justin/github/2018_fall_hardware_software_codesign_lab/custom_ip/custom_ip.srcs/sources_1/bd/design_1/synth/design_1.v:13]
 INFO: [Synth 8-6155] done synthesizing module 'design_1_wrapper' (8#1) [/home/justin/github/2018_fall_hardware_software_codesign_lab/custom_ip/custom_ip.srcs/sources_1/bd/design_1/hdl/design_1_wrapper.v:12]
@@ -50,7 +50,7 @@ WARNING: [Synth 8-3331] design s00_couplers_imp_UYSKKA has unconnected port M_AR
 WARNING: [Synth 8-3331] design design_1_ps7_0_axi_periph_0 has unconnected port ACLK
 WARNING: [Synth 8-3331] design design_1_ps7_0_axi_periph_0 has unconnected port ARESETN
 ---------------------------------------------------------------------------------
-Finished RTL Elaboration : Time (s): cpu = 00:00:02 ; elapsed = 00:00:03 . Memory (MB): peak = 1393.422 ; gain = 132.320 ; free physical = 20870 ; free virtual = 57173
+Finished RTL Elaboration : Time (s): cpu = 00:00:02 ; elapsed = 00:00:03 . Memory (MB): peak = 1394.500 ; gain = 133.324 ; free physical = 13267 ; free virtual = 55533
 ---------------------------------------------------------------------------------
 
 Report Check Netlist: 
@@ -63,10 +63,10 @@ Report Check Netlist:
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:00:02 ; elapsed = 00:00:03 . Memory (MB): peak = 1393.422 ; gain = 132.320 ; free physical = 20870 ; free virtual = 57173
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:02 ; elapsed = 00:00:03 . Memory (MB): peak = 1394.500 ; gain = 133.324 ; free physical = 13266 ; free virtual = 55534
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:02 ; elapsed = 00:00:03 . Memory (MB): peak = 1393.422 ; gain = 132.320 ; free physical = 20870 ; free virtual = 57173
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:02 ; elapsed = 00:00:03 . Memory (MB): peak = 1394.500 ; gain = 133.324 ; free physical = 13266 ; free virtual = 55534
 ---------------------------------------------------------------------------------
 INFO: [Device 21-403] Loading part xc7z020clg484-1
 INFO: [Project 1-570] Preparing netlist for logic optimization
@@ -95,16 +95,16 @@ Completed Processing XDC Constraints
 INFO: [Project 1-111] Unisim Transformation Summary:
 No Unisim elements were transformed.
 
-Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.01 . Memory (MB): peak = 1701.406 ; gain = 0.000 ; free physical = 20585 ; free virtual = 56896
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1701.477 ; gain = 0.000 ; free physical = 12986 ; free virtual = 55253
 ---------------------------------------------------------------------------------
-Finished Constraint Validation : Time (s): cpu = 00:00:11 ; elapsed = 00:00:24 . Memory (MB): peak = 1701.406 ; gain = 440.305 ; free physical = 20665 ; free virtual = 56974
+Finished Constraint Validation : Time (s): cpu = 00:00:11 ; elapsed = 00:00:24 . Memory (MB): peak = 1701.477 ; gain = 440.301 ; free physical = 13064 ; free virtual = 55331
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Loading Part and Timing Information
 ---------------------------------------------------------------------------------
 Loading part: xc7z020clg484-1
 ---------------------------------------------------------------------------------
-Finished Loading Part and Timing Information : Time (s): cpu = 00:00:11 ; elapsed = 00:00:24 . Memory (MB): peak = 1701.406 ; gain = 440.305 ; free physical = 20665 ; free virtual = 56974
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:11 ; elapsed = 00:00:24 . Memory (MB): peak = 1701.477 ; gain = 440.301 ; free physical = 13064 ; free virtual = 55331
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Applying 'set_property' XDC Constraints
@@ -376,10 +376,10 @@ Applied set_property DONT_TOUCH = true for design_1_i/rst_ps7_0_100M. (constrain
 Applied set_property DONT_TOUCH = true for design_1_i/led_controller_1. (constraint file  auto generated constraint, line ).
 Applied set_property DONT_TOUCH = true for design_1_i/ps7_0_axi_periph/s00_couplers/auto_pc. (constraint file  auto generated constraint, line ).
 ---------------------------------------------------------------------------------
-Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:11 ; elapsed = 00:00:24 . Memory (MB): peak = 1701.406 ; gain = 440.305 ; free physical = 20667 ; free virtual = 56975
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:11 ; elapsed = 00:00:24 . Memory (MB): peak = 1701.477 ; gain = 440.301 ; free physical = 13065 ; free virtual = 55332
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:11 ; elapsed = 00:00:24 . Memory (MB): peak = 1701.406 ; gain = 440.305 ; free physical = 20668 ; free virtual = 56976
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:11 ; elapsed = 00:00:24 . Memory (MB): peak = 1701.477 ; gain = 440.301 ; free physical = 13066 ; free virtual = 55334
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -419,7 +419,7 @@ WARNING: [Synth 8-3331] design design_1_ps7_0_axi_periph_0 has unconnected port 
 WARNING: [Synth 8-3331] design design_1_ps7_0_axi_periph_0 has unconnected port M00_ACLK
 WARNING: [Synth 8-3331] design design_1_ps7_0_axi_periph_0 has unconnected port M00_ARESETN
 ---------------------------------------------------------------------------------
-Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:11 ; elapsed = 00:00:25 . Memory (MB): peak = 1701.406 ; gain = 440.305 ; free physical = 20656 ; free virtual = 56965
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:11 ; elapsed = 00:00:24 . Memory (MB): peak = 1701.477 ; gain = 440.301 ; free physical = 13054 ; free virtual = 55323
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -433,13 +433,13 @@ Start Applying XDC Timing Constraints
 INFO: [Synth 8-5578] Moved timing constraint from pin 'design_1_i/processing_system7_0/FCLK_CLK0' to pin 'design_1_i/processing_system7_0/bbstub_FCLK_CLK0/O'
 INFO: [Synth 8-5819] Moved 1 constraints on hierarchical pins to their respective driving/loading pins
 ---------------------------------------------------------------------------------
-Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:17 ; elapsed = 00:00:32 . Memory (MB): peak = 1702.391 ; gain = 441.289 ; free physical = 20537 ; free virtual = 56847
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:16 ; elapsed = 00:00:32 . Memory (MB): peak = 1703.461 ; gain = 442.285 ; free physical = 12927 ; free virtual = 55196
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Timing Optimization
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Timing Optimization : Time (s): cpu = 00:00:17 ; elapsed = 00:00:32 . Memory (MB): peak = 1702.391 ; gain = 441.289 ; free physical = 20537 ; free virtual = 56847
+Finished Timing Optimization : Time (s): cpu = 00:00:16 ; elapsed = 00:00:32 . Memory (MB): peak = 1703.461 ; gain = 442.285 ; free physical = 12927 ; free virtual = 55196
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -451,7 +451,7 @@ Report RTL Partitions:
 Start Technology Mapping
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Technology Mapping : Time (s): cpu = 00:00:17 ; elapsed = 00:00:32 . Memory (MB): peak = 1703.391 ; gain = 442.289 ; free physical = 20536 ; free virtual = 56846
+Finished Technology Mapping : Time (s): cpu = 00:00:16 ; elapsed = 00:00:32 . Memory (MB): peak = 1703.461 ; gain = 442.285 ; free physical = 12927 ; free virtual = 55196
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -475,7 +475,7 @@ Start Final Netlist Cleanup
 Finished Final Netlist Cleanup
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished IO Insertion : Time (s): cpu = 00:00:17 ; elapsed = 00:00:33 . Memory (MB): peak = 1703.391 ; gain = 442.289 ; free physical = 20536 ; free virtual = 56846
+Finished IO Insertion : Time (s): cpu = 00:00:17 ; elapsed = 00:00:33 . Memory (MB): peak = 1703.461 ; gain = 442.285 ; free physical = 12927 ; free virtual = 55196
 ---------------------------------------------------------------------------------
 
 Report Check Netlist: 
@@ -488,7 +488,7 @@ Report Check Netlist:
 Start Renaming Generated Instances
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Instances : Time (s): cpu = 00:00:17 ; elapsed = 00:00:33 . Memory (MB): peak = 1703.391 ; gain = 442.289 ; free physical = 20536 ; free virtual = 56846
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:17 ; elapsed = 00:00:33 . Memory (MB): peak = 1703.461 ; gain = 442.285 ; free physical = 12927 ; free virtual = 55196
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -500,25 +500,25 @@ Report RTL Partitions:
 Start Rebuilding User Hierarchy
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:17 ; elapsed = 00:00:33 . Memory (MB): peak = 1703.391 ; gain = 442.289 ; free physical = 20536 ; free virtual = 56846
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:17 ; elapsed = 00:00:33 . Memory (MB): peak = 1704.461 ; gain = 443.285 ; free physical = 12926 ; free virtual = 55195
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Ports
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Ports : Time (s): cpu = 00:00:17 ; elapsed = 00:00:33 . Memory (MB): peak = 1703.391 ; gain = 442.289 ; free physical = 20536 ; free virtual = 56846
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:17 ; elapsed = 00:00:33 . Memory (MB): peak = 1704.461 ; gain = 443.285 ; free physical = 12926 ; free virtual = 55195
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:00:17 ; elapsed = 00:00:33 . Memory (MB): peak = 1703.391 ; gain = 442.289 ; free physical = 20535 ; free virtual = 56845
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:17 ; elapsed = 00:00:33 . Memory (MB): peak = 1704.461 ; gain = 443.285 ; free physical = 12926 ; free virtual = 55195
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Nets
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Nets : Time (s): cpu = 00:00:17 ; elapsed = 00:00:33 . Memory (MB): peak = 1703.391 ; gain = 442.289 ; free physical = 20535 ; free virtual = 56845
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:17 ; elapsed = 00:00:33 . Memory (MB): peak = 1704.461 ; gain = 443.285 ; free physical = 12926 ; free virtual = 55195
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Writing Synthesis Report
@@ -555,11 +555,11 @@ Report Instance Areas:
 |4     |      s00_couplers   |s00_couplers_imp_UYSKKA     |   177|
 +------+---------------------+----------------------------+------+
 ---------------------------------------------------------------------------------
-Finished Writing Synthesis Report : Time (s): cpu = 00:00:17 ; elapsed = 00:00:33 . Memory (MB): peak = 1703.391 ; gain = 442.289 ; free physical = 20535 ; free virtual = 56845
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:17 ; elapsed = 00:00:33 . Memory (MB): peak = 1704.461 ; gain = 443.285 ; free physical = 12926 ; free virtual = 55195
 ---------------------------------------------------------------------------------
 Synthesis finished with 0 errors, 0 critical warnings and 4 warnings.
-Synthesis Optimization Runtime : Time (s): cpu = 00:00:10 ; elapsed = 00:00:13 . Memory (MB): peak = 1703.391 ; gain = 134.305 ; free physical = 20593 ; free virtual = 56903
-Synthesis Optimization Complete : Time (s): cpu = 00:00:17 ; elapsed = 00:00:33 . Memory (MB): peak = 1703.398 ; gain = 442.289 ; free physical = 20603 ; free virtual = 56913
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:10 ; elapsed = 00:00:13 . Memory (MB): peak = 1704.461 ; gain = 136.309 ; free physical = 12984 ; free virtual = 55253
+Synthesis Optimization Complete : Time (s): cpu = 00:00:17 ; elapsed = 00:00:33 . Memory (MB): peak = 1704.469 ; gain = 443.285 ; free physical = 12984 ; free virtual = 55253
 INFO: [Project 1-571] Translating synthesized netlist
 INFO: [Project 1-570] Preparing netlist for logic optimization
 INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
@@ -569,9 +569,9 @@ No Unisim elements were transformed.
 INFO: [Common 17-83] Releasing license: Synthesis
 31 Infos, 16 Warnings, 0 Critical Warnings and 0 Errors encountered.
 synth_design completed successfully
-synth_design: Time (s): cpu = 00:00:18 ; elapsed = 00:00:33 . Memory (MB): peak = 1718.391 ; gain = 463.320 ; free physical = 20576 ; free virtual = 56887
+synth_design: Time (s): cpu = 00:00:18 ; elapsed = 00:00:33 . Memory (MB): peak = 1719.461 ; gain = 464.312 ; free physical = 12968 ; free virtual = 55237
 WARNING: [Constraints 18-5210] No constraint will be written out.
 INFO: [Common 17-1381] The checkpoint '/home/justin/github/2018_fall_hardware_software_codesign_lab/custom_ip/custom_ip.runs/synth_1/design_1_wrapper.dcp' has been generated.
 INFO: [runtcl-4] Executing : report_utilization -file design_1_wrapper_utilization_synth.rpt -pb design_1_wrapper_utilization_synth.pb
-report_utilization: Time (s): cpu = 00:00:00.07 ; elapsed = 00:00:00.09 . Memory (MB): peak = 1718.391 ; gain = 0.000 ; free physical = 20576 ; free virtual = 56887
-INFO: [Common 17-206] Exiting Vivado at Tue Dec  4 17:31:26 2018...
+report_utilization: Time (s): cpu = 00:00:00.08 ; elapsed = 00:00:00.11 . Memory (MB): peak = 1719.461 ; gain = 0.000 ; free physical = 12967 ; free virtual = 55236
+INFO: [Common 17-206] Exiting Vivado at Wed Dec 19 15:38:43 2018...

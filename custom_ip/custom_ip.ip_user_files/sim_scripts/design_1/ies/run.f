@@ -46,9 +46,9 @@
 -endlib
 -makelib ies_lib/xil_defaultlib \
   "../../../bd/design_1/sim/design_1.v" \
-  "../../../bd/design_1/ipshared/7d43/hdl/led_controller_v1_0_S0_AXI.v" \
+  "../../../bd/design_1/ipshared/30fe/hdl/led_controller_v1_0_S0_AXI.v" \
   "../../../bd/design_1/ipshared/led.v" \
-  "../../../bd/design_1/ipshared/7d43/hdl/led_controller_v1_0.v" \
+  "../../../bd/design_1/ipshared/30fe/hdl/led_controller_v1_0.v" \
   "../../../bd/design_1/ip/design_1_led_controller_1_0/sim/design_1_led_controller_1_0.v" \
 -endlib
 -makelib ies_lib/generic_baseblocks_v2_1_0 \

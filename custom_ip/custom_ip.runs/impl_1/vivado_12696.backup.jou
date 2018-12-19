@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:02:38 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Wed Dec 19 15:38:44 2018
+# Process ID: 12696
+# Current directory: /home/justin/github/2018_fall_hardware_software_codesign_lab/custom_ip/custom_ip.runs/impl_1
+# Command line: vivado -log design_1_wrapper.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source design_1_wrapper.tcl -notrace
+# Log file: /home/justin/github/2018_fall_hardware_software_codesign_lab/custom_ip/custom_ip.runs/impl_1/design_1_wrapper.vdi
+# Journal file: /home/justin/github/2018_fall_hardware_software_codesign_lab/custom_ip/custom_ip.runs/impl_1/vivado.jou
+#-----------------------------------------------------------
+source design_1_wrapper.tcl -notrace
