@@ -1,0 +1,4 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/justin/github/2018_fall_hardware_software_codesign_lab/ip_repo/basic_integration_1.0/hdl/integration.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module integration
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/justin/github/2018_fall_hardware_software_codesign_lab/ip_repo/edit_basic_integration_v1_0.srcs/sim_1/new/tb_integration.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb_integration

@@ -1,0 +1,365 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:36:41 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Fri Dec 28 08:33:46 2018
+# Process ID: 20952
+# Current directory: /home/justin/github/2018_fall_hardware_software_codesign_lab/ip_repo/edit_basic_integration_v1_0.runs/synth_1
+# Command line: vivado -log basic_integration_v1_0.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source basic_integration_v1_0.tcl
+# Log file: /home/justin/github/2018_fall_hardware_software_codesign_lab/ip_repo/edit_basic_integration_v1_0.runs/synth_1/basic_integration_v1_0.vds
+# Journal file: /home/justin/github/2018_fall_hardware_software_codesign_lab/ip_repo/edit_basic_integration_v1_0.runs/synth_1/vivado.jou
+#-----------------------------------------------------------
+source basic_integration_v1_0.tcl -notrace
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/home/justin/github/2018_fall_hardware_software_codesign_lab/ip_repo/basic_integration_1.0'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/home/justin/software/Xilinx/Vivado/2018.3/data/ip'.
+Command: synth_design -top basic_integration_v1_0 -part xc7z020clg484-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7z020'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z020'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 20975 
+---------------------------------------------------------------------------------
+Starting Synthesize : Time (s): cpu = 00:00:01 ; elapsed = 00:00:02 . Memory (MB): peak = 1451.324 ; gain = 64.730 ; free physical = 24458 ; free virtual = 28235
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'basic_integration_v1_0' [/home/justin/github/2018_fall_hardware_software_codesign_lab/ip_repo/basic_integration_1.0/hdl/basic_integration_v1_0.v:4]
+	Parameter C_S00_AXI_DATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_S00_AXI_ADDR_WIDTH bound to: 4 - type: integer 
+INFO: [Synth 8-6157] synthesizing module 'basic_integration_v1_0_S00_AXI' [/home/justin/github/2018_fall_hardware_software_codesign_lab/ip_repo/basic_integration_1.0/hdl/basic_integration_v1_0_S00_AXI.v:4]
+	Parameter C_S_AXI_DATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_S_AXI_ADDR_WIDTH bound to: 4 - type: integer 
+	Parameter ADDR_LSB bound to: 2 - type: integer 
+	Parameter OPT_MEM_ADDR_BITS bound to: 1 - type: integer 
+INFO: [Synth 8-226] default block is never used [/home/justin/github/2018_fall_hardware_software_codesign_lab/ip_repo/basic_integration_1.0/hdl/basic_integration_v1_0_S00_AXI.v:230]
+INFO: [Synth 8-226] default block is never used [/home/justin/github/2018_fall_hardware_software_codesign_lab/ip_repo/basic_integration_1.0/hdl/basic_integration_v1_0_S00_AXI.v:372]
+INFO: [Synth 8-6157] synthesizing module 'integration' [/home/justin/github/2018_fall_hardware_software_codesign_lab/ip_repo/basic_integration_1.0/hdl/integration.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'integration' (1#1) [/home/justin/github/2018_fall_hardware_software_codesign_lab/ip_repo/basic_integration_1.0/hdl/integration.v:23]
+WARNING: [Synth 8-6014] Unused sequential element slv_reg3_reg was removed.  [/home/justin/github/2018_fall_hardware_software_codesign_lab/ip_repo/basic_integration_1.0/hdl/basic_integration_v1_0_S00_AXI.v:225]
+INFO: [Synth 8-6155] done synthesizing module 'basic_integration_v1_0_S00_AXI' (2#1) [/home/justin/github/2018_fall_hardware_software_codesign_lab/ip_repo/basic_integration_1.0/hdl/basic_integration_v1_0_S00_AXI.v:4]
+INFO: [Synth 8-6155] done synthesizing module 'basic_integration_v1_0' (3#1) [/home/justin/github/2018_fall_hardware_software_codesign_lab/ip_repo/basic_integration_1.0/hdl/basic_integration_v1_0.v:4]
+WARNING: [Synth 8-3331] design basic_integration_v1_0_S00_AXI has unconnected port S_AXI_AWPROT[2]
+WARNING: [Synth 8-3331] design basic_integration_v1_0_S00_AXI has unconnected port S_AXI_AWPROT[1]
+WARNING: [Synth 8-3331] design basic_integration_v1_0_S00_AXI has unconnected port S_AXI_AWPROT[0]
+WARNING: [Synth 8-3331] design basic_integration_v1_0_S00_AXI has unconnected port S_AXI_ARPROT[2]
+WARNING: [Synth 8-3331] design basic_integration_v1_0_S00_AXI has unconnected port S_AXI_ARPROT[1]
+WARNING: [Synth 8-3331] design basic_integration_v1_0_S00_AXI has unconnected port S_AXI_ARPROT[0]
+---------------------------------------------------------------------------------
+Finished Synthesize : Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 1496.074 ; gain = 109.480 ; free physical = 24468 ; free virtual = 28246
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 1496.074 ; gain = 109.480 ; free physical = 24469 ; free virtual = 28246
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7z020clg484-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 1504.078 ; gain = 117.484 ; free physical = 24469 ; free virtual = 28246
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7z020clg484-1
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 1512.086 ; gain = 125.492 ; free physical = 24457 ; free virtual = 28235
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+No constraint files found.
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 1     
+	   3 Input     32 Bit       Adders := 1     
++---Registers : 
+	               32 Bit    Registers := 10    
+	                4 Bit    Registers := 2     
+	                2 Bit    Registers := 2     
+	                1 Bit    Registers := 6     
++---Multipliers : 
+	                32x32  Multipliers := 2     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 7     
+	   4 Input     32 Bit        Muxes := 4     
+	   2 Input      1 Bit        Muxes := 7     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module integration 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 1     
+	   3 Input     32 Bit       Adders := 1     
++---Registers : 
+	               32 Bit    Registers := 6     
++---Multipliers : 
+	                32x32  Multipliers := 2     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 4     
+	   2 Input      1 Bit        Muxes := 2     
+Module basic_integration_v1_0_S00_AXI 
+Detailed RTL Component Info : 
++---Registers : 
+	               32 Bit    Registers := 4     
+	                4 Bit    Registers := 2     
+	                2 Bit    Registers := 2     
+	                1 Bit    Registers := 6     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 3     
+	   4 Input     32 Bit        Muxes := 4     
+	   2 Input      1 Bit        Muxes := 5     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 220 (col length:60)
+BRAMs: 280 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+Warning: Parallel synthesis criteria is not met 
+INFO: [Synth 8-5845] Not enough pipeline registers after wide multiplier. Recommended levels of pipeline registers is 4 [/home/justin/github/2018_fall_hardware_software_codesign_lab/ip_repo/basic_integration_1.0/hdl/integration.v:55]
+INFO: [Synth 8-5845] Not enough pipeline registers after wide multiplier. Recommended levels of pipeline registers is 4 [/home/justin/github/2018_fall_hardware_software_codesign_lab/ip_repo/basic_integration_1.0/hdl/integration.v:56]
+DSP Report: Generating DSP basic_integration_v1_0_S00_AXI_inst/intrgration_inst/pow_a0, operation Mode is: A2*B2.
+DSP Report: register B is absorbed into DSP basic_integration_v1_0_S00_AXI_inst/intrgration_inst/pow_a0.
+DSP Report: register A is absorbed into DSP basic_integration_v1_0_S00_AXI_inst/intrgration_inst/pow_a0.
+DSP Report: operator basic_integration_v1_0_S00_AXI_inst/intrgration_inst/pow_a0 is absorbed into DSP basic_integration_v1_0_S00_AXI_inst/intrgration_inst/pow_a0.
+DSP Report: operator basic_integration_v1_0_S00_AXI_inst/intrgration_inst/pow_a0 is absorbed into DSP basic_integration_v1_0_S00_AXI_inst/intrgration_inst/pow_a0.
+DSP Report: Generating DSP basic_integration_v1_0_S00_AXI_inst/intrgration_inst/pow_a0, operation Mode is: (PCIN>>17)+A2*B2.
+DSP Report: register B is absorbed into DSP basic_integration_v1_0_S00_AXI_inst/intrgration_inst/pow_a0.
+DSP Report: register A is absorbed into DSP basic_integration_v1_0_S00_AXI_inst/intrgration_inst/pow_a0.
+DSP Report: operator basic_integration_v1_0_S00_AXI_inst/intrgration_inst/pow_a0 is absorbed into DSP basic_integration_v1_0_S00_AXI_inst/intrgration_inst/pow_a0.
+DSP Report: operator basic_integration_v1_0_S00_AXI_inst/intrgration_inst/pow_a0 is absorbed into DSP basic_integration_v1_0_S00_AXI_inst/intrgration_inst/pow_a0.
+DSP Report: Generating DSP basic_integration_v1_0_S00_AXI_inst/intrgration_inst/pow_a0, operation Mode is: A2*B2.
+DSP Report: register B is absorbed into DSP basic_integration_v1_0_S00_AXI_inst/intrgration_inst/pow_a0.
+DSP Report: register A is absorbed into DSP basic_integration_v1_0_S00_AXI_inst/intrgration_inst/pow_a0.
+DSP Report: operator basic_integration_v1_0_S00_AXI_inst/intrgration_inst/pow_a0 is absorbed into DSP basic_integration_v1_0_S00_AXI_inst/intrgration_inst/pow_a0.
+DSP Report: operator basic_integration_v1_0_S00_AXI_inst/intrgration_inst/pow_a0 is absorbed into DSP basic_integration_v1_0_S00_AXI_inst/intrgration_inst/pow_a0.
+DSP Report: Generating DSP basic_integration_v1_0_S00_AXI_inst/intrgration_inst/pow_a0, operation Mode is: (PCIN>>17)+A2*B2.
+DSP Report: register B is absorbed into DSP basic_integration_v1_0_S00_AXI_inst/intrgration_inst/pow_a0.
+DSP Report: register A is absorbed into DSP basic_integration_v1_0_S00_AXI_inst/intrgration_inst/pow_a0.
+DSP Report: operator basic_integration_v1_0_S00_AXI_inst/intrgration_inst/pow_a0 is absorbed into DSP basic_integration_v1_0_S00_AXI_inst/intrgration_inst/pow_a0.
+DSP Report: operator basic_integration_v1_0_S00_AXI_inst/intrgration_inst/pow_a0 is absorbed into DSP basic_integration_v1_0_S00_AXI_inst/intrgration_inst/pow_a0.
+DSP Report: Generating DSP basic_integration_v1_0_S00_AXI_inst/intrgration_inst/pow_b0, operation Mode is: A2*B2.
+DSP Report: register B is absorbed into DSP basic_integration_v1_0_S00_AXI_inst/intrgration_inst/pow_b0.
+DSP Report: register A is absorbed into DSP basic_integration_v1_0_S00_AXI_inst/intrgration_inst/pow_b0.
+DSP Report: operator basic_integration_v1_0_S00_AXI_inst/intrgration_inst/pow_b0 is absorbed into DSP basic_integration_v1_0_S00_AXI_inst/intrgration_inst/pow_b0.
+DSP Report: operator basic_integration_v1_0_S00_AXI_inst/intrgration_inst/pow_b0 is absorbed into DSP basic_integration_v1_0_S00_AXI_inst/intrgration_inst/pow_b0.
+DSP Report: Generating DSP basic_integration_v1_0_S00_AXI_inst/intrgration_inst/pow_b0, operation Mode is: (PCIN>>17)+A2*B2.
+DSP Report: register B is absorbed into DSP basic_integration_v1_0_S00_AXI_inst/intrgration_inst/pow_b0.
+DSP Report: register A is absorbed into DSP basic_integration_v1_0_S00_AXI_inst/intrgration_inst/pow_b0.
+DSP Report: operator basic_integration_v1_0_S00_AXI_inst/intrgration_inst/pow_b0 is absorbed into DSP basic_integration_v1_0_S00_AXI_inst/intrgration_inst/pow_b0.
+DSP Report: operator basic_integration_v1_0_S00_AXI_inst/intrgration_inst/pow_b0 is absorbed into DSP basic_integration_v1_0_S00_AXI_inst/intrgration_inst/pow_b0.
+DSP Report: Generating DSP basic_integration_v1_0_S00_AXI_inst/intrgration_inst/pow_b0, operation Mode is: A2*B2.
+DSP Report: register B is absorbed into DSP basic_integration_v1_0_S00_AXI_inst/intrgration_inst/pow_b0.
+DSP Report: register A is absorbed into DSP basic_integration_v1_0_S00_AXI_inst/intrgration_inst/pow_b0.
+DSP Report: operator basic_integration_v1_0_S00_AXI_inst/intrgration_inst/pow_b0 is absorbed into DSP basic_integration_v1_0_S00_AXI_inst/intrgration_inst/pow_b0.
+DSP Report: operator basic_integration_v1_0_S00_AXI_inst/intrgration_inst/pow_b0 is absorbed into DSP basic_integration_v1_0_S00_AXI_inst/intrgration_inst/pow_b0.
+DSP Report: Generating DSP basic_integration_v1_0_S00_AXI_inst/intrgration_inst/pow_b0, operation Mode is: (PCIN>>17)+A2*B2.
+DSP Report: register B is absorbed into DSP basic_integration_v1_0_S00_AXI_inst/intrgration_inst/pow_b0.
+DSP Report: register A is absorbed into DSP basic_integration_v1_0_S00_AXI_inst/intrgration_inst/pow_b0.
+DSP Report: operator basic_integration_v1_0_S00_AXI_inst/intrgration_inst/pow_b0 is absorbed into DSP basic_integration_v1_0_S00_AXI_inst/intrgration_inst/pow_b0.
+DSP Report: operator basic_integration_v1_0_S00_AXI_inst/intrgration_inst/pow_b0 is absorbed into DSP basic_integration_v1_0_S00_AXI_inst/intrgration_inst/pow_b0.
+WARNING: [Synth 8-3331] design basic_integration_v1_0 has unconnected port s00_axi_awprot[2]
+WARNING: [Synth 8-3331] design basic_integration_v1_0 has unconnected port s00_axi_awprot[1]
+WARNING: [Synth 8-3331] design basic_integration_v1_0 has unconnected port s00_axi_awprot[0]
+WARNING: [Synth 8-3331] design basic_integration_v1_0 has unconnected port s00_axi_arprot[2]
+WARNING: [Synth 8-3331] design basic_integration_v1_0 has unconnected port s00_axi_arprot[1]
+WARNING: [Synth 8-3331] design basic_integration_v1_0 has unconnected port s00_axi_arprot[0]
+INFO: [Synth 8-3886] merging instance 'basic_integration_v1_0_S00_AXI_inst/axi_rresp_reg[0]' (FDRE) to 'basic_integration_v1_0_S00_AXI_inst/axi_rresp_reg[1]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\basic_integration_v1_0_S00_AXI_inst/axi_rresp_reg[1] )
+INFO: [Synth 8-3886] merging instance 'basic_integration_v1_0_S00_AXI_inst/axi_bresp_reg[0]' (FDRE) to 'basic_integration_v1_0_S00_AXI_inst/axi_bresp_reg[1]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\basic_integration_v1_0_S00_AXI_inst/axi_bresp_reg[1] )
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 1652.086 ; gain = 265.492 ; free physical = 24285 ; free virtual = 28064
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+DSP: Preliminary Mapping  Report (see note below)
++-----------------------+------------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+|Module Name            | DSP Mapping      | A Size | B Size | C Size | D Size | P Size | AREG | BREG | CREG | DREG | ADREG | MREG | PREG | 
++-----------------------+------------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+|basic_integration_v1_0 | A2*B2            | 18     | 16     | -      | -      | 48     | 1    | 1    | -    | -    | -     | 0    | 0    | 
+|basic_integration_v1_0 | (PCIN>>17)+A2*B2 | 16     | 16     | -      | -      | 48     | 1    | 1    | -    | -    | -     | 0    | 0    | 
+|basic_integration_v1_0 | A2*B2            | 18     | 18     | -      | -      | 48     | 1    | 1    | -    | -    | -     | 0    | 0    | 
+|basic_integration_v1_0 | (PCIN>>17)+A2*B2 | 18     | 16     | -      | -      | 48     | 1    | 1    | -    | -    | -     | 0    | 0    | 
+|basic_integration_v1_0 | A2*B2            | 18     | 16     | -      | -      | 48     | 1    | 1    | -    | -    | -     | 0    | 0    | 
+|basic_integration_v1_0 | (PCIN>>17)+A2*B2 | 16     | 16     | -      | -      | 48     | 1    | 1    | -    | -    | -     | 0    | 0    | 
+|basic_integration_v1_0 | A2*B2            | 18     | 18     | -      | -      | 48     | 1    | 1    | -    | -    | -     | 0    | 0    | 
+|basic_integration_v1_0 | (PCIN>>17)+A2*B2 | 18     | 16     | -      | -      | 48     | 1    | 1    | -    | -    | -     | 0    | 0    | 
++-----------------------+------------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+
+Note: The table above is a preliminary report that shows the DSPs inferred at the current stage of the synthesis flow. Some DSP may be reimplemented as non DSP primitives later in the synthesis flow. Multiple instantiated DSPs are reported only once.
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 1652.086 ; gain = 265.492 ; free physical = 24285 ; free virtual = 28064
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 1660.094 ; gain = 273.500 ; free physical = 24283 ; free virtual = 28062
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 1660.094 ; gain = 273.500 ; free physical = 24283 ; free virtual = 28062
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 1660.094 ; gain = 273.500 ; free physical = 24283 ; free virtual = 28062
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 1660.094 ; gain = 273.500 ; free physical = 24283 ; free virtual = 28062
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 1660.094 ; gain = 273.500 ; free physical = 24283 ; free virtual = 28062
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 1660.094 ; gain = 273.500 ; free physical = 24283 ; free virtual = 28062
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 1660.094 ; gain = 273.500 ; free physical = 24283 ; free virtual = 28062
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+--------+------+
+|      |Cell    |Count |
++------+--------+------+
+|1     |BUFG    |     1|
+|2     |CARRY4  |    36|
+|3     |DSP48E1 |     6|
+|4     |LUT1    |     3|
+|5     |LUT2    |   125|
+|6     |LUT3    |     3|
+|7     |LUT4    |    50|
+|8     |LUT5    |    64|
+|9     |LUT6    |    36|
+|10    |FDRE    |   296|
+|11    |FDSE    |     2|
+|12    |IBUF    |    47|
+|13    |OBUF    |    41|
++------+--------+------+
+
+Report Instance Areas: 
++------+--------------------------------------+-------------------------------+------+
+|      |Instance                              |Module                         |Cells |
++------+--------------------------------------+-------------------------------+------+
+|1     |top                                   |                               |   710|
+|2     |  basic_integration_v1_0_S00_AXI_inst |basic_integration_v1_0_S00_AXI |   621|
+|3     |    intrgration_inst                  |integration                    |   361|
++------+--------------------------------------+-------------------------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 1660.094 ; gain = 273.500 ; free physical = 24283 ; free virtual = 28062
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 13 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 1660.094 ; gain = 273.500 ; free physical = 24285 ; free virtual = 28064
+Synthesis Optimization Complete : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 1660.102 ; gain = 273.500 ; free physical = 24285 ; free virtual = 28064
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 42 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1790.121 ; gain = 0.000 ; free physical = 24197 ; free virtual = 27976
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Common 17-83] Releasing license: Synthesis
+26 Infos, 13 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 1790.121 ; gain = 403.797 ; free physical = 24254 ; free virtual = 28033
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1790.121 ; gain = 0.000 ; free physical = 24254 ; free virtual = 28033
+WARNING: [Constraints 18-5210] No constraints selected for write.
+Resolution: This message can indicate that there are no constraints for the design, or it can indicate that the used_in flags are set such that the constraints are ignored. This later case is used when running synth_design to not write synthesis constraints to the resulting checkpoint. Instead, project constraints are read when the synthesized design is opened.
+INFO: [Common 17-1381] The checkpoint '/home/justin/github/2018_fall_hardware_software_codesign_lab/ip_repo/edit_basic_integration_v1_0.runs/synth_1/basic_integration_v1_0.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file basic_integration_v1_0_utilization_synth.rpt -pb basic_integration_v1_0_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Fri Dec 28 08:34:01 2018...
