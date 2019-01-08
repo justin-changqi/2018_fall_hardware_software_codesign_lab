@@ -1,0 +1,16 @@
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.3 (lin64) Build 2405991 Thu Dec  6 23:36:41 MST 2018
+| Date         : Tue Jan  8 12:02:23 2019
+| Host         : justin-pev running 64-bit Ubuntu 16.04.5 LTS
+| Command      : upgrade_ip
+| Device       : xc7z020clg484-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_mux_operation_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_mux_operation_0_0 (user.org:user:mux_operation:1.0) from (Rev. 1) to (Rev. 2)
+

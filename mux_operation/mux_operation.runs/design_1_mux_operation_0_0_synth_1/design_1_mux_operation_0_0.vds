@@ -1,0 +1,391 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:36:41 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Tue Jan  8 12:02:42 2019
+# Process ID: 22796
+# Current directory: /home/justin/github/2018_fall_hardware_software_codesign_lab/mux_operation/mux_operation.runs/design_1_mux_operation_0_0_synth_1
+# Command line: vivado -log design_1_mux_operation_0_0.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source design_1_mux_operation_0_0.tcl
+# Log file: /home/justin/github/2018_fall_hardware_software_codesign_lab/mux_operation/mux_operation.runs/design_1_mux_operation_0_0_synth_1/design_1_mux_operation_0_0.vds
+# Journal file: /home/justin/github/2018_fall_hardware_software_codesign_lab/mux_operation/mux_operation.runs/design_1_mux_operation_0_0_synth_1/vivado.jou
+#-----------------------------------------------------------
+source design_1_mux_operation_0_0.tcl -notrace
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/home/justin/github/2018_fall_hardware_software_codesign_lab/ip_repo/mux_operation_1.0'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/home/justin/software/Xilinx/Vivado/2018.3/data/ip'.
+Command: synth_design -top design_1_mux_operation_0_0 -part xc7z020clg484-1 -mode out_of_context
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7z020'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z020'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 22923 
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 1454.340 ; gain = 67.730 ; free physical = 22042 ; free virtual = 26673
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'design_1_mux_operation_0_0' [/home/justin/github/2018_fall_hardware_software_codesign_lab/mux_operation/mux_operation.srcs/sources_1/bd/design_1/ip/design_1_mux_operation_0_0/synth/design_1_mux_operation_0_0.v:56]
+INFO: [Synth 8-6157] synthesizing module 'mux_operation_v1_0' [/home/justin/github/2018_fall_hardware_software_codesign_lab/mux_operation/mux_operation.srcs/sources_1/bd/design_1/ipshared/3488/hdl/mux_operation_v1_0.v:4]
+	Parameter C_S00_AXI_DATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_S00_AXI_ADDR_WIDTH bound to: 4 - type: integer 
+INFO: [Synth 8-6157] synthesizing module 'mux_operation_v1_0_S00_AXI' [/home/justin/github/2018_fall_hardware_software_codesign_lab/mux_operation/mux_operation.srcs/sources_1/bd/design_1/ipshared/3488/hdl/mux_operation_v1_0_S00_AXI.v:4]
+	Parameter C_S_AXI_DATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_S_AXI_ADDR_WIDTH bound to: 4 - type: integer 
+	Parameter ADDR_LSB bound to: 2 - type: integer 
+	Parameter OPT_MEM_ADDR_BITS bound to: 1 - type: integer 
+INFO: [Synth 8-226] default block is never used [/home/justin/github/2018_fall_hardware_software_codesign_lab/mux_operation/mux_operation.srcs/sources_1/bd/design_1/ipshared/3488/hdl/mux_operation_v1_0_S00_AXI.v:231]
+INFO: [Synth 8-226] default block is never used [/home/justin/github/2018_fall_hardware_software_codesign_lab/mux_operation/mux_operation.srcs/sources_1/bd/design_1/ipshared/3488/hdl/mux_operation_v1_0_S00_AXI.v:374]
+INFO: [Synth 8-6157] synthesizing module 'mux_operation' [/home/justin/github/2018_fall_hardware_software_codesign_lab/mux_operation/mux_operation.srcs/sources_1/bd/design_1/ipshared/3488/src/mux_operation.v:23]
+WARNING: [Synth 8-6014] Unused sequential element temp_ans_reg was removed.  [/home/justin/github/2018_fall_hardware_software_codesign_lab/mux_operation/mux_operation.srcs/sources_1/bd/design_1/ipshared/3488/src/mux_operation.v:44]
+INFO: [Synth 8-6155] done synthesizing module 'mux_operation' (1#1) [/home/justin/github/2018_fall_hardware_software_codesign_lab/mux_operation/mux_operation.srcs/sources_1/bd/design_1/ipshared/3488/src/mux_operation.v:23]
+WARNING: [Synth 8-689] width (32) of port connection 'S' does not match port width (4) of module 'mux_operation' [/home/justin/github/2018_fall_hardware_software_codesign_lab/mux_operation/mux_operation.srcs/sources_1/bd/design_1/ipshared/3488/hdl/mux_operation_v1_0_S00_AXI.v:407]
+INFO: [Synth 8-6155] done synthesizing module 'mux_operation_v1_0_S00_AXI' (2#1) [/home/justin/github/2018_fall_hardware_software_codesign_lab/mux_operation/mux_operation.srcs/sources_1/bd/design_1/ipshared/3488/hdl/mux_operation_v1_0_S00_AXI.v:4]
+INFO: [Synth 8-6155] done synthesizing module 'mux_operation_v1_0' (3#1) [/home/justin/github/2018_fall_hardware_software_codesign_lab/mux_operation/mux_operation.srcs/sources_1/bd/design_1/ipshared/3488/hdl/mux_operation_v1_0.v:4]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_mux_operation_0_0' (4#1) [/home/justin/github/2018_fall_hardware_software_codesign_lab/mux_operation/mux_operation.srcs/sources_1/bd/design_1/ip/design_1_mux_operation_0_0/synth/design_1_mux_operation_0_0.v:56]
+WARNING: [Synth 8-3331] design mux_operation_v1_0_S00_AXI has unconnected port S_AXI_AWPROT[2]
+WARNING: [Synth 8-3331] design mux_operation_v1_0_S00_AXI has unconnected port S_AXI_AWPROT[1]
+WARNING: [Synth 8-3331] design mux_operation_v1_0_S00_AXI has unconnected port S_AXI_AWPROT[0]
+WARNING: [Synth 8-3331] design mux_operation_v1_0_S00_AXI has unconnected port S_AXI_ARPROT[2]
+WARNING: [Synth 8-3331] design mux_operation_v1_0_S00_AXI has unconnected port S_AXI_ARPROT[1]
+WARNING: [Synth 8-3331] design mux_operation_v1_0_S00_AXI has unconnected port S_AXI_ARPROT[0]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:02 ; elapsed = 00:00:03 . Memory (MB): peak = 1500.090 ; gain = 113.480 ; free physical = 22023 ; free virtual = 26655
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:02 ; elapsed = 00:00:03 . Memory (MB): peak = 1500.090 ; gain = 113.480 ; free physical = 22001 ; free virtual = 26632
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:02 ; elapsed = 00:00:03 . Memory (MB): peak = 1500.090 ; gain = 113.480 ; free physical = 22001 ; free virtual = 26632
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7z020clg484-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1867.113 ; gain = 0.000 ; free physical = 21348 ; free virtual = 25980
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1867.113 ; gain = 0.000 ; free physical = 21347 ; free virtual = 25980
+WARNING: [Constraints 18-5210] No constraints selected for write.
+Resolution: This message can indicate that there are no constraints for the design, or it can indicate that the used_in flags are set such that the constraints are ignored. This later case is used when running synth_design to not write synthesis constraints to the resulting checkpoint. Instead, project constraints are read when the synthesized design is opened.
+Constraint Validation Runtime : Time (s): cpu = 00:00:00.06 ; elapsed = 00:00:00.10 . Memory (MB): peak = 1868.113 ; gain = 1.000 ; free physical = 21341 ; free virtual = 25974
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:08 ; elapsed = 00:00:09 . Memory (MB): peak = 1868.113 ; gain = 481.504 ; free physical = 21451 ; free virtual = 26085
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7z020clg484-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:08 ; elapsed = 00:00:09 . Memory (MB): peak = 1868.113 ; gain = 481.504 ; free physical = 21451 ; free virtual = 26085
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:08 ; elapsed = 00:00:09 . Memory (MB): peak = 1868.113 ; gain = 481.504 ; free physical = 21453 ; free virtual = 26087
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [/home/justin/github/2018_fall_hardware_software_codesign_lab/mux_operation/mux_operation.srcs/sources_1/bd/design_1/ipshared/3488/src/mux_operation.v:47]
+INFO: [Synth 8-5544] ROM "w_ready" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:08 ; elapsed = 00:00:10 . Memory (MB): peak = 1868.113 ; gain = 481.504 ; free physical = 21438 ; free virtual = 26073
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input     32 Bit       Adders := 1     
++---Registers : 
+	               32 Bit    Registers := 8     
+	                4 Bit    Registers := 3     
+	                2 Bit    Registers := 2     
+	                1 Bit    Registers := 7     
++---Multipliers : 
+	                32x32  Multipliers := 1     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 6     
+	   4 Input     32 Bit        Muxes := 7     
+	   2 Input      1 Bit        Muxes := 6     
+	   4 Input      1 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module mux_operation 
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input     32 Bit       Adders := 1     
++---Registers : 
+	               32 Bit    Registers := 3     
+	                4 Bit    Registers := 1     
+	                1 Bit    Registers := 1     
++---Multipliers : 
+	                32x32  Multipliers := 1     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 2     
+	   4 Input     32 Bit        Muxes := 2     
+	   2 Input      1 Bit        Muxes := 1     
+	   4 Input      1 Bit        Muxes := 1     
+Module mux_operation_v1_0_S00_AXI 
+Detailed RTL Component Info : 
++---Registers : 
+	               32 Bit    Registers := 5     
+	                4 Bit    Registers := 2     
+	                2 Bit    Registers := 2     
+	                1 Bit    Registers := 6     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 4     
+	   4 Input     32 Bit        Muxes := 5     
+	   2 Input      1 Bit        Muxes := 5     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 220 (col length:60)
+BRAMs: 280 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+Warning: Parallel synthesis criteria is not met 
+INFO: [Synth 8-5845] Not enough pipeline registers after wide multiplier. Recommended levels of pipeline registers is 4 [/home/justin/github/2018_fall_hardware_software_codesign_lab/mux_operation/mux_operation.srcs/sources_1/bd/design_1/ipshared/3488/src/mux_operation.v:57]
+DSP Report: Generating DSP inst/mux_operation_v1_0_S00_AXI_inst/mux_operation_inst/ans0, operation Mode is: A2*B2.
+DSP Report: register B is absorbed into DSP inst/mux_operation_v1_0_S00_AXI_inst/mux_operation_inst/ans0.
+DSP Report: register A is absorbed into DSP inst/mux_operation_v1_0_S00_AXI_inst/mux_operation_inst/ans0.
+DSP Report: operator inst/mux_operation_v1_0_S00_AXI_inst/mux_operation_inst/ans0 is absorbed into DSP inst/mux_operation_v1_0_S00_AXI_inst/mux_operation_inst/ans0.
+DSP Report: operator inst/mux_operation_v1_0_S00_AXI_inst/mux_operation_inst/ans0 is absorbed into DSP inst/mux_operation_v1_0_S00_AXI_inst/mux_operation_inst/ans0.
+DSP Report: Generating DSP inst/mux_operation_v1_0_S00_AXI_inst/mux_operation_inst/ans0, operation Mode is: (PCIN>>17)+A2*B2.
+DSP Report: register B is absorbed into DSP inst/mux_operation_v1_0_S00_AXI_inst/mux_operation_inst/ans0.
+DSP Report: register A is absorbed into DSP inst/mux_operation_v1_0_S00_AXI_inst/mux_operation_inst/ans0.
+DSP Report: operator inst/mux_operation_v1_0_S00_AXI_inst/mux_operation_inst/ans0 is absorbed into DSP inst/mux_operation_v1_0_S00_AXI_inst/mux_operation_inst/ans0.
+DSP Report: operator inst/mux_operation_v1_0_S00_AXI_inst/mux_operation_inst/ans0 is absorbed into DSP inst/mux_operation_v1_0_S00_AXI_inst/mux_operation_inst/ans0.
+DSP Report: Generating DSP inst/mux_operation_v1_0_S00_AXI_inst/mux_operation_inst/ans0, operation Mode is: A2*B2.
+DSP Report: register B is absorbed into DSP inst/mux_operation_v1_0_S00_AXI_inst/mux_operation_inst/ans0.
+DSP Report: register A is absorbed into DSP inst/mux_operation_v1_0_S00_AXI_inst/mux_operation_inst/ans0.
+DSP Report: operator inst/mux_operation_v1_0_S00_AXI_inst/mux_operation_inst/ans0 is absorbed into DSP inst/mux_operation_v1_0_S00_AXI_inst/mux_operation_inst/ans0.
+DSP Report: operator inst/mux_operation_v1_0_S00_AXI_inst/mux_operation_inst/ans0 is absorbed into DSP inst/mux_operation_v1_0_S00_AXI_inst/mux_operation_inst/ans0.
+DSP Report: Generating DSP inst/mux_operation_v1_0_S00_AXI_inst/mux_operation_inst/ans0, operation Mode is: (PCIN>>17)+A2*B2.
+DSP Report: register B is absorbed into DSP inst/mux_operation_v1_0_S00_AXI_inst/mux_operation_inst/ans0.
+DSP Report: register A is absorbed into DSP inst/mux_operation_v1_0_S00_AXI_inst/mux_operation_inst/ans0.
+DSP Report: operator inst/mux_operation_v1_0_S00_AXI_inst/mux_operation_inst/ans0 is absorbed into DSP inst/mux_operation_v1_0_S00_AXI_inst/mux_operation_inst/ans0.
+DSP Report: operator inst/mux_operation_v1_0_S00_AXI_inst/mux_operation_inst/ans0 is absorbed into DSP inst/mux_operation_v1_0_S00_AXI_inst/mux_operation_inst/ans0.
+WARNING: [Synth 8-3331] design design_1_mux_operation_0_0 has unconnected port s00_axi_awprot[2]
+WARNING: [Synth 8-3331] design design_1_mux_operation_0_0 has unconnected port s00_axi_awprot[1]
+WARNING: [Synth 8-3331] design design_1_mux_operation_0_0 has unconnected port s00_axi_awprot[0]
+WARNING: [Synth 8-3331] design design_1_mux_operation_0_0 has unconnected port s00_axi_arprot[2]
+WARNING: [Synth 8-3331] design design_1_mux_operation_0_0 has unconnected port s00_axi_arprot[1]
+WARNING: [Synth 8-3331] design design_1_mux_operation_0_0 has unconnected port s00_axi_arprot[0]
+INFO: [Synth 8-3886] merging instance 'inst/mux_operation_v1_0_S00_AXI_inst/axi_rresp_reg[0]' (FDRE) to 'inst/mux_operation_v1_0_S00_AXI_inst/axi_rresp_reg[1]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\inst/mux_operation_v1_0_S00_AXI_inst/axi_rresp_reg[1] )
+INFO: [Synth 8-3886] merging instance 'inst/mux_operation_v1_0_S00_AXI_inst/axi_bresp_reg[0]' (FDRE) to 'inst/mux_operation_v1_0_S00_AXI_inst/axi_bresp_reg[1]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\inst/mux_operation_v1_0_S00_AXI_inst/axi_bresp_reg[1] )
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:09 ; elapsed = 00:00:11 . Memory (MB): peak = 1868.113 ; gain = 481.504 ; free physical = 21413 ; free virtual = 26058
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+DSP: Preliminary Mapping  Report (see note below)
++---------------------------+------------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+|Module Name                | DSP Mapping      | A Size | B Size | C Size | D Size | P Size | AREG | BREG | CREG | DREG | ADREG | MREG | PREG | 
++---------------------------+------------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+|design_1_mux_operation_0_0 | A2*B2            | 18     | 16     | -      | -      | 48     | 1    | 1    | -    | -    | -     | 0    | 0    | 
+|design_1_mux_operation_0_0 | (PCIN>>17)+A2*B2 | 16     | 16     | -      | -      | 48     | 1    | 1    | -    | -    | -     | 0    | 0    | 
+|design_1_mux_operation_0_0 | A2*B2            | 18     | 18     | -      | -      | 48     | 1    | 1    | -    | -    | -     | 0    | 0    | 
+|design_1_mux_operation_0_0 | (PCIN>>17)+A2*B2 | 18     | 16     | -      | -      | 48     | 1    | 1    | -    | -    | -     | 0    | 0    | 
++---------------------------+------------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+
+Note: The table above is a preliminary report that shows the DSPs inferred at the current stage of the synthesis flow. Some DSP may be reimplemented as non DSP primitives later in the synthesis flow. Multiple instantiated DSPs are reported only once.
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:16 ; elapsed = 00:00:18 . Memory (MB): peak = 1868.113 ; gain = 481.504 ; free physical = 20877 ; free virtual = 25525
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:16 ; elapsed = 00:00:18 . Memory (MB): peak = 1868.113 ; gain = 481.504 ; free physical = 20823 ; free virtual = 25471
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:16 ; elapsed = 00:00:18 . Memory (MB): peak = 1868.113 ; gain = 481.504 ; free physical = 20754 ; free virtual = 25402
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:17 ; elapsed = 00:00:18 . Memory (MB): peak = 1868.113 ; gain = 481.504 ; free physical = 20796 ; free virtual = 25444
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:17 ; elapsed = 00:00:18 . Memory (MB): peak = 1868.113 ; gain = 481.504 ; free physical = 20795 ; free virtual = 25443
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:17 ; elapsed = 00:00:18 . Memory (MB): peak = 1868.113 ; gain = 481.504 ; free physical = 20810 ; free virtual = 25459
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:17 ; elapsed = 00:00:18 . Memory (MB): peak = 1868.113 ; gain = 481.504 ; free physical = 20810 ; free virtual = 25458
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:17 ; elapsed = 00:00:18 . Memory (MB): peak = 1868.113 ; gain = 481.504 ; free physical = 20809 ; free virtual = 25457
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:17 ; elapsed = 00:00:18 . Memory (MB): peak = 1868.113 ; gain = 481.504 ; free physical = 20809 ; free virtual = 25457
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+--------+------+
+|      |Cell    |Count |
++------+--------+------+
+|1     |CARRY4  |    12|
+|2     |DSP48E1 |     3|
+|3     |LUT1    |     2|
+|4     |LUT2    |    16|
+|5     |LUT3    |    64|
+|6     |LUT4    |    15|
+|7     |LUT5    |    32|
+|8     |LUT6    |     7|
+|9     |FDRE    |   211|
+|10    |FDSE    |     1|
++------+--------+------+
+
+Report Instance Areas: 
++------+------------------------------------+---------------------------+------+
+|      |Instance                            |Module                     |Cells |
++------+------------------------------------+---------------------------+------+
+|1     |top                                 |                           |   363|
+|2     |  inst                              |mux_operation_v1_0         |   363|
+|3     |    mux_operation_v1_0_S00_AXI_inst |mux_operation_v1_0_S00_AXI |   363|
+|4     |      mux_operation_inst            |mux_operation              |   197|
++------+------------------------------------+---------------------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:17 ; elapsed = 00:00:18 . Memory (MB): peak = 1868.113 ; gain = 481.504 ; free physical = 20808 ; free virtual = 25456
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 6 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:13 ; elapsed = 00:00:14 . Memory (MB): peak = 1868.113 ; gain = 113.480 ; free physical = 20882 ; free virtual = 25530
+Synthesis Optimization Complete : Time (s): cpu = 00:00:17 ; elapsed = 00:00:19 . Memory (MB): peak = 1868.113 ; gain = 481.504 ; free physical = 20887 ; free virtual = 25535
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 15 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1894.145 ; gain = 0.000 ; free physical = 21451 ; free virtual = 26098
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Common 17-83] Releasing license: Synthesis
+31 Infos, 15 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:19 ; elapsed = 00:00:20 . Memory (MB): peak = 1894.145 ; gain = 507.805 ; free physical = 21508 ; free virtual = 26155
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1894.145 ; gain = 0.000 ; free physical = 21509 ; free virtual = 26155
+WARNING: [Constraints 18-5210] No constraints selected for write.
+Resolution: This message can indicate that there are no constraints for the design, or it can indicate that the used_in flags are set such that the constraints are ignored. This later case is used when running synth_design to not write synthesis constraints to the resulting checkpoint. Instead, project constraints are read when the synthesized design is opened.
+INFO: [Common 17-1381] The checkpoint '/home/justin/github/2018_fall_hardware_software_codesign_lab/mux_operation/mux_operation.runs/design_1_mux_operation_0_0_synth_1/design_1_mux_operation_0_0.dcp' has been generated.
+INFO: [Coretcl 2-1648] Added synthesis output to IP cache for IP design_1_mux_operation_0_0, cache-ID = fb0fe98e70626120
+INFO: [Coretcl 2-1174] Renamed 3 cell refs.
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1918.156 ; gain = 0.000 ; free physical = 21505 ; free virtual = 26151
+WARNING: [Constraints 18-5210] No constraints selected for write.
+Resolution: This message can indicate that there are no constraints for the design, or it can indicate that the used_in flags are set such that the constraints are ignored. This later case is used when running synth_design to not write synthesis constraints to the resulting checkpoint. Instead, project constraints are read when the synthesized design is opened.
+INFO: [Common 17-1381] The checkpoint '/home/justin/github/2018_fall_hardware_software_codesign_lab/mux_operation/mux_operation.runs/design_1_mux_operation_0_0_synth_1/design_1_mux_operation_0_0.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file design_1_mux_operation_0_0_utilization_synth.rpt -pb design_1_mux_operation_0_0_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Tue Jan  8 12:03:12 2019...
